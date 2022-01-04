@@ -24,7 +24,11 @@ simple Queue
         @display("i=block/queue");
     gates:
         input in;
-        input t_in;
-        output t_out;
         
+        input t_in0;
+        output t_out0;
+        input t_in1;
+        output t_out1;
+        input t_in2;
+        output t_out2;        
 }

@@ -13,17 +13,13 @@
 // along with this program.  If not, see http://www.gnu.org/licenses/.
 // 
 
-package the_carrefour;
+namespace the_carrefour;
 
 //
-// TODO auto-generated type
+// TODO generated message class
 //
-simple Till
-{
-    parameters:
-        volatile double procInterval @unit(s) = default(exponential(3s));
-        @display("i=block/sink");
-    gates:
-        input in;
-        output out;
+packet Till2queue {
+    int till_n;
+    string msg;
+    simtime_t procTime;
 }

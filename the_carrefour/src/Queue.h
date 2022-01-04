@@ -17,10 +17,16 @@
 #define __THE_CARREFOUR_QUEUE_H
 
 #include <omnetpp.h>
+#include "till2queue_m.h"
+
+#include <string>
+#include <bits/stdc++.h>
 
 using namespace omnetpp;
 
 namespace the_carrefour {
+
+#define N_TILLS     3
 
 /**
  * Message queue; see NED file for more info.
@@ -34,6 +40,11 @@ class Queue : public cSimpleModule
     // statistics
     cDoubleHistogram iaTimeHistogram;
     cOutVector arrivalsVector;
+
+    int empty_till_array[N_TILLS] = {0}; // 0 is empty, 1 is processing
+    int n_clients_in_queue = 0;
+    //int n_tills = 1;
+
 
   protected:
     virtual void initialize();

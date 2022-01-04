@@ -27,10 +27,15 @@ network TheCarrefour
     submodules:
         source: Source;
         queue: Queue;
-        till_1: Till;
-        
+        till0: Till;
+        till1: Till;
+        till2: Till;
     connections:
         source.out --> queue.in;
-        queue.t_out --> till_1.in;
-        till_1.out --> queue.t_in;
+        queue.t_out0 --> till0.in;
+        till0.out --> queue.t_in0;
+        queue.t_out1 --> till1.in;
+        till1.out --> queue.t_in1;
+        queue.t_out2 --> till2.in;
+        till2.out --> queue.t_in2;
 }

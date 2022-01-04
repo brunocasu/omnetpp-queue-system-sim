@@ -34,10 +34,11 @@ PROJECTRELATIVE_PATH = src
 O = $(PROJECT_OUTPUT_DIR)/$(CONFIGNAME)/$(PROJECTRELATIVE_PATH)
 
 # Object files for local .cc, .msg and .sm files
-OBJS = $O/Queue.o $O/Source.o $O/Till.o
+OBJS = $O/Queue.o $O/Source.o $O/Till.o $O/till2queue_m.o
 
 # Message files
-MSGFILES =
+MSGFILES = \
+    till2queue.msg
 
 # SM files
 SMFILES =
