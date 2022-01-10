@@ -21,7 +21,7 @@ package the_carrefour;
 simple Source
 {
     parameters:
-        volatile double sendInterval @unit(s) = default(exponential(1s));
+        volatile double sendInterval @unit(s) = default(exponential(40s));
         @display("i=block/source");
     gates:
         output out;

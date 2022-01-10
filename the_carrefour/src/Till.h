@@ -13,11 +13,11 @@ class Till : public cSimpleModule
 {
   private:
     // state
-    simtime_t lastArrival;
+    //simtime_t lastArrival;
 
     // statistics
-    cDoubleHistogram iaTimeHistogram;
-    cOutVector arrivalsVector;
+    //cDoubleHistogram iaTimeHistogram;
+    //cOutVector arrivalsVector;
 
     int is_proc = 0;
     int is_cfg_msg = 0;

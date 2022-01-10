@@ -26,7 +26,7 @@ using namespace omnetpp;
 
 namespace the_carrefour {
 
-#define N_TILLS     3
+#define N_TILLS     1
 
 /**
  * Message queue; see NED file for more info.
@@ -38,7 +38,7 @@ class Queue : public cSimpleModule
     simtime_t lastArrival;
 
     // statistics
-    cDoubleHistogram iaTimeHistogram;
+    cHistogram iaTimeHistogram;
     cOutVector arrivalsVector;
 
     int empty_till_array[N_TILLS] = {0}; // 0 is empty, 1 is processing

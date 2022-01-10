@@ -1,15 +1,15 @@
-file 681 1641259909                                             
+file 18282 1641577509                                           
 version 2
-run General-0-20220104-02:30:42-7120
+run General-0-20220107-18:45:02-10376
 attr configname General
-attr datetime 20220104-02:30:42
+attr datetime 20220107-18:45:02
 attr experiment General
 attr inifile omnetpp.ini
 attr iterationvars ""
 attr iterationvarsf ""
 attr measurement ""
 attr network TheCarrefour
-attr processid 7120
+attr processid 10376
 attr repetition 0
 attr replication #0
 attr resultdir results
@@ -18,5 +18,5 @@ attr seedset 0
 
 vector 0 TheCarrefour.queue arrivals ETV
 attr interpolationmode none
-0	445 234 2 67 0 14.932 17 1 1 17 17
+0	447 17833 2 4602 0 37109.989 923 1 1 923 923
 

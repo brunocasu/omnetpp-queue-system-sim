@@ -13,10 +13,10 @@ Define_Module(Till);
 
 void Till::initialize()
 {
-    lastArrival = simTime();
-    iaTimeHistogram.setName("interarrival times");
-    arrivalsVector.setName("arrivals");
-    arrivalsVector.setInterpolationMode(cOutVector::NONE);
+    //lastArrival = simTime();
+    //iaTimeHistogram.setName("interarrival times");
+    //arrivalsVector.setName("arrivals");
+    //arrivalsVector.setInterpolationMode(cOutVector::NONE);
 }
 
 void Till::handleMessage(cMessage *msg)
@@ -58,7 +58,7 @@ void Till::handleMessage(cMessage *msg)
 
 void Till::finish()
 {
-    recordStatistic(&iaTimeHistogram);
+    //recordStatistic(&iaTimeHistogram);
 }
 
 }; // namespace

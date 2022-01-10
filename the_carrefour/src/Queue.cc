@@ -23,6 +23,7 @@ void Queue::initialize()
 {
     lastArrival = simTime();
     iaTimeHistogram.setName("inter arrival times");
+    iaTimeHistogram.setBinSizeHint(10);
     arrivalsVector.setName("arrivals");
     arrivalsVector.setInterpolationMode(cOutVector::NONE);
 
@@ -30,21 +31,21 @@ void Queue::initialize()
 
 void Queue::handleMessage(cMessage *msg)
 {
-    simtime_t d = simTime() - lastArrival;
+
     EV << "Received " << msg->getName() << endl;
-    std::string Q;
     std::string rec_name = msg->getName();
     int till_to_send = -1;
     if (rec_name.compare("client")==0){
+        simtime_t d = simTime() - lastArrival;
         iaTimeHistogram.collect(d);
-        arrivalsVector.record(1);
+        //arrivalsVector.record(1);
         lastArrival = simTime();
 
         n_clients_in_queue++; // add client to the queue
         // mark arrival time at queue
-
+        std::string Q;
         Q = std::to_string(n_clients_in_queue);
-        EV << "CLIENT RECEIVED - CURRENT QUEUE: " << Q << " CLIENT(S)" << endl;
+        EV << "CLIENT RECEIVED - CURRENT QUEUE: " << Q << " CLIENT(S)" << d << endl;
 
         for (int i=0; i<N_TILLS; i++){ // find an empty till
             if (empty_till_array[i]==0){
@@ -62,7 +63,8 @@ void Queue::handleMessage(cMessage *msg)
 
             Till2queue *job = new Till2queue("client");
             job->setTill_n(till_to_send);
-            send(job, out_port);
+            //send(job, out_port);
+            sendDelayed (job, (1+till_to_send)*(par("deltaInterval").doubleValue()), out_port);
             EV << "SENT TO TILL " << till_to_send << " ("<< out_port << ")" <<  endl;
 
             n_clients_in_queue--; // remove client from the queue
@@ -91,13 +93,17 @@ void Queue::handleMessage(cMessage *msg)
             strcat(out_port, num_char); // output port name
 
             Till2queue *job = new Till2queue("client");
-            send(job, out_port);
+            //send(job, out_port);
+            sendDelayed (job, (1+rec_till_n)*(par("deltaInterval").doubleValue()), out_port);
+            // client is sent with a delay (depending on the till number) = delta*j (2s to 20s)
+            // delta = time to reach the till 0 (2s)
+            // j = till number (0 to 9)
             EV << "CLIENT SENT TO " << out_port << endl;
 
             n_clients_in_queue--; // remove client from the queue
             // mark exit time
             // calculate total time in the queue
-
+            std::string Q;
             Q = std::to_string(n_clients_in_queue);
             EV << "CLIENT DISPATCHED - CURRENT QUEUE: " << Q << " CLIENT(S)" << endl;
 
