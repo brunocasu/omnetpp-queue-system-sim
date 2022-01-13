@@ -12,13 +12,7 @@ namespace the_carrefour {
 class Till : public cSimpleModule
 {
   private:
-    // state
-    //simtime_t lastArrival;
-
-    // statistics
-    //cDoubleHistogram iaTimeHistogram;
-    //cOutVector arrivalsVector;
-
+    simtime_t procTimeVal;
     int is_proc = 0;
     int is_cfg_msg = 0;
     int till_number = 0;

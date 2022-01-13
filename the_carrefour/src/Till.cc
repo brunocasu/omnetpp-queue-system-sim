@@ -42,11 +42,13 @@ void Till::handleMessage(cMessage *msg)
         is_proc = 1;
         Till2queue *proc_job = new Till2queue("end_proc");
         EV << "RECEIVED CLIENT AT TILL " << till_number << endl;
-        scheduleAt(simTime()+par("procInterval").doubleValue(), proc_job); // define the time to process the client
+        procTimeVal = par("procInterval").doubleValue();
+        scheduleAt(simTime()+procTimeVal, proc_job); // define the time to process the client
     }
     else if (message_name.compare("end_proc")==0){
         Till2queue *job = new Till2queue("empty");
         job->setTill_n(till_number);
+        job->setProcTime(procTimeVal);
         send(job, "out");
         is_proc = 0;
         EV << "TILL " << till_number << " PROCESSED CLIENT" << endl;

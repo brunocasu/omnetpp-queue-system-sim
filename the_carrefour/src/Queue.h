@@ -26,22 +26,38 @@ using namespace omnetpp;
 
 namespace the_carrefour {
 
-#define N_TILLS     1
+#define N_TILLS     5
+#define TIMER_INTERVAL      60
+#define QUEUE_CONTROL_SIZE  2000 // maximum size for time entering control
 
 /**
  * Message queue; see NED file for more info.
  */
 class Queue : public cSimpleModule
 {
-  private:
+    public:
+        Queue();
+        virtual ~Queue();
+
+    private:
     // state
     simtime_t lastArrival;
+    //simtime_t sentToTillN[N_TILLS];
+    simtime_t entryQueueTime[QUEUE_CONTROL_SIZE];
 
     // statistics
     cHistogram iaTimeHistogram;
-    cOutVector arrivalsVector;
+    cHistogram procTimeHistogram;
+    cOutVector time_in_queueVector;
+    cOutVector queue_sizeVector;
+    cOutVector client_proc_orderVector;
+    cOutVector proc_timeVector;
+    cMessage *qtimerMessage;
 
-    int empty_till_array[N_TILLS] = {0}; // 0 is empty, 1 is processing
+    int queue_control_position [N_TILLS];
+    int tot_n_clients = 0;
+    int head_queue_client_n = 0;
+    int empty_till_array[N_TILLS] = {0}; // identify if a till is in idle or processing: 0 is empty(idle), 1 is processing
     int n_clients_in_queue = 0;
     //int n_tills = 1;
 

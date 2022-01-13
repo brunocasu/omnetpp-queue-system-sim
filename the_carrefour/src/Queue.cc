@@ -19,33 +19,58 @@ namespace the_carrefour {
 
 Define_Module(Queue);
 
+Queue::Queue()
+{
+    qtimerMessage = NULL;
+}
+
+Queue::~Queue()
+{
+    cancelAndDelete(qtimerMessage);
+}
+
 void Queue::initialize()
 {
     lastArrival = simTime();
     iaTimeHistogram.setName("inter arrival times");
     iaTimeHistogram.setBinSizeHint(10);
-    arrivalsVector.setName("arrivals");
-    arrivalsVector.setInterpolationMode(cOutVector::NONE);
+    procTimeHistogram.setName("processing times");
+    procTimeHistogram.setBinSizeHint(10);
+    queue_sizeVector.setName("queue size");
+    queue_sizeVector.setInterpolationMode(cOutVector::NONE);
+    time_in_queueVector.setName("time spent on the queue");
+    time_in_queueVector.setInterpolationMode(cOutVector::NONE);
+    client_proc_orderVector.setName("client processing order");
+    client_proc_orderVector.setInterpolationMode(cOutVector::NONE);
+    proc_timeVector.setName("processing time with client order");
+    proc_timeVector.setInterpolationMode(cOutVector::NONE);
+
+    qtimerMessage = new cMessage("timer");
+    scheduleAt(simTime()+par("timerInterval").doubleValue(), qtimerMessage);
 
 }
 
 void Queue::handleMessage(cMessage *msg)
 {
-
+    ASSERT(msg==qtimerMessage);
     EV << "Received " << msg->getName() << endl;
     std::string rec_name = msg->getName();
-    int till_to_send = -1;
+    int till_to_send = -1; // assigned till number is undefined at the start
+
     if (rec_name.compare("client")==0){
         simtime_t d = simTime() - lastArrival;
-        iaTimeHistogram.collect(d);
-        //arrivalsVector.record(1);
+        iaTimeHistogram.collect(d); // collect inter arrival times
         lastArrival = simTime();
 
-        n_clients_in_queue++; // add client to the queue
-        // mark arrival time at queue
-        std::string Q;
-        Q = std::to_string(n_clients_in_queue);
-        EV << "CLIENT RECEIVED - CURRENT QUEUE: " << Q << " CLIENT(S)" << d << endl;
+        EV << "RECEIVED CLIENT N = "<< tot_n_clients << endl;
+        EV << "CURRENT QUEUE: " << n_clients_in_queue << " CLIENT(S)" << endl;
+
+        if (n_clients_in_queue < QUEUE_CONTROL_SIZE){ // prevents buffer overflow
+            entryQueueTime[n_clients_in_queue] = simTime(); // mark client time entering the queue, he/she is placed in the last position (FIFO queue)
+        }
+
+        n_clients_in_queue++; // increase the number of clients in the queue
+        tot_n_clients++;
 
         for (int i=0; i<N_TILLS; i++){ // find an empty till
             if (empty_till_array[i]==0){
@@ -55,7 +80,15 @@ void Queue::handleMessage(cMessage *msg)
             }
         }
         if ((till_to_send >= 0) && (till_to_send < N_TILLS)){
-            //EV << "CLIENT DISPATCHED TO TILL: " << till_to_send << endl;
+            time_in_queueVector.record(simTime() - entryQueueTime[0]); // calculate client queue time
+            for (int k=1; k<QUEUE_CONTROL_SIZE-1; k++){ // move the queue recorded times
+                entryQueueTime[k-1] = entryQueueTime[k];
+            }
+            entryQueueTime[QUEUE_CONTROL_SIZE-1] = 0;
+
+            // find the number of the client at the head of the queue, and assign it to till N (till_to_send)
+            queue_control_position[till_to_send] = tot_n_clients - n_clients_in_queue;
+
             std::string tmp = std::to_string(till_to_send);
             const char *num_char = tmp.c_str();
             char out_port[] = "t_out";
@@ -64,29 +97,40 @@ void Queue::handleMessage(cMessage *msg)
             Till2queue *job = new Till2queue("client");
             job->setTill_n(till_to_send);
             //send(job, out_port);
-            sendDelayed (job, (1+till_to_send)*(par("deltaInterval").doubleValue()), out_port);
-            EV << "SENT TO TILL " << till_to_send << " ("<< out_port << ")" <<  endl;
+            sendDelayed(job, (1+till_to_send)*(par("deltaInterval").doubleValue()), out_port);
+            EV << "CLIENT TO TILL " << till_to_send << " ("<< out_port << ")" <<  endl;
 
             n_clients_in_queue--; // remove client from the queue
             // mark exit time
             // calculate total time in the queue
-
-            Q = std::to_string(n_clients_in_queue);
-            EV << "CLIENT DISPATCHED - CURRENT QUEUE: " << Q << " CLIENT(S)" << endl;
         }
         else { // No Tills available
             EV << "ALL TILLS FULL" << endl;
         }
+        delete msg;
     }
     else if (rec_name.compare("empty")==0){
         Till2queue *tempMsg;
         tempMsg = (Till2queue*)msg;
         //string rec_msg = tempMsg->getMsg;
         int rec_till_n = tempMsg->getTill_n();
+        simtime_t procTime = tempMsg->getProcTime();
+        procTimeHistogram.collect(procTime);
+        client_proc_orderVector.record(queue_control_position[rec_till_n]);
+        proc_timeVector.record(procTime);
 
         EV << "TILL " << rec_till_n << " IS FREE" << endl;
 
         if (n_clients_in_queue > 0 ){
+            time_in_queueVector.record(simTime() - entryQueueTime[0]); // calculate client queue time
+            for (int k=1; k<QUEUE_CONTROL_SIZE-1; k++){ // move the queue recorded times
+                entryQueueTime[k-1] = entryQueueTime[k];
+            }
+            entryQueueTime[QUEUE_CONTROL_SIZE-1] = 0;
+
+            // find the number of the client at the head of the queue, and assign it to the free till (till_to_send)
+            queue_control_position[rec_till_n] = tot_n_clients - n_clients_in_queue;
+
             std::string tmp = std::to_string(rec_till_n);
             const char *num_char = tmp.c_str();
             char out_port[] = "t_out";
@@ -112,14 +156,20 @@ void Queue::handleMessage(cMessage *msg)
         else{ // no clients in the queue
             empty_till_array[rec_till_n] = 0; // free the till
         }
+        delete msg;
+    }
+    else if (rec_name.compare("timer")==0){
+        queue_sizeVector.record(n_clients_in_queue);
+        scheduleAt(simTime()+par("timerInterval").doubleValue(), qtimerMessage);
     }
 
-    delete msg;
 }
 
 void Queue::finish()
 {
+    EV << "TOTAL NUMBER OF CLIENTS " << tot_n_clients << endl;
     recordStatistic(&iaTimeHistogram);
+    recordStatistic(&procTimeHistogram);
 }
 
 }; // namespace

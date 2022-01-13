@@ -1,22 +1,31 @@
-file 18282 1641577509                                           
+file 113787 1642045575                                          
 version 2
-run General-0-20220107-18:45:02-10376
+run General-0-20220113-04:46:09-14060
 attr configname General
-attr datetime 20220107-18:45:02
+attr datetime 20220113-04:46:09
 attr experiment General
 attr inifile omnetpp.ini
 attr iterationvars ""
 attr iterationvarsf ""
 attr measurement ""
-attr network TheCarrefour
-attr processid 10376
+attr network PolicyA
+attr processid 14060
 attr repetition 0
 attr replication #0
 attr resultdir results
 attr runnumber 0
 attr seedset 0
 
-vector 0 TheCarrefour.queue arrivals ETV
+vector 0 PolicyA.queue "time spent on the queue" ETV
 attr interpolationmode none
-0	447 17833 2 4602 0 37109.989 923 1 1 923 923
+vector 1 PolicyA.queue "queue size" ETV
+attr interpolationmode none
+vector 2 PolicyA.queue "client processing order" ETV
+attr interpolationmode none
+vector 3 PolicyA.queue "processing time with client order" ETV
+attr interpolationmode none
+0	700 31790 2 8068 0 57554.352 1424 0 519.124 91842.091 19825318.175223
+1	32490 15060 7 8072 60 57600 960 0 12 1525 8793
+2	47550 30920 16 8071 136.784 57569.815 1420 0 1423 1007510 953478060
+3	78470 35315 16 8071 136.784 57569.815 1420 0.008 934.115 217575.858 65332923.23458
 
