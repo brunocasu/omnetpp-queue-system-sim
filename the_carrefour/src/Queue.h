@@ -44,14 +44,23 @@ class Queue : public cSimpleModule
     simtime_t lastArrival;
     //simtime_t sentToTillN[N_TILLS];
     simtime_t entryQueueTime[QUEUE_CONTROL_SIZE];
+    simtime_t sent_to_tillTime[N_TILLS];
 
     // statistics
-    cHistogram iaTimeHistogram;
-    cHistogram procTimeHistogram;
-    cOutVector time_in_queueVector;
-    cOutVector queue_sizeVector;
-    cOutVector client_proc_orderVector;
-    cOutVector proc_timeVector;
+    cHistogram iaTimeHistogram; // inter arrival time histogram
+    cHistogram procTimeHistogram; // all queues processing time histogram
+    cOutVector time_in_queueVector; // time each client spent on the queue (sequential client number)
+
+    // next three vectors are correlated
+    cOutVector client_proc_orderVector; // order in witch clients were processed (data is the client number)
+    cOutVector proc_timeVector; // processing time, stored in the order that clients were processed (to match previous vector client order)
+    cOutVector till_proc_orderVector; // identifies the till number that processed the client
+
+    cOutVector client_till_timeVector; // time that the client spent during the processing plus the time spent to reach the till
+    cOutVector queue_sizeVector; // show the queue size in every minute
+    cOutVector queue_progressionVector; // show the queue size whenever a client enters it or exits it (accounted after the action)
+
+
     cMessage *qtimerMessage;
 
     int queue_control_position [N_TILLS];

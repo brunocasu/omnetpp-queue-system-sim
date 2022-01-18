@@ -21,28 +21,48 @@ Define_Module(Source);
 
 Source::Source()
 {
+    newClientMessage = NULL;
     timerMessage = NULL;
 }
 
 Source::~Source()
 {
+    cancelAndDelete(newClientMessage);
     cancelAndDelete(timerMessage);
 }
 
 void Source::initialize()
 {
+    partialClientsVector.setName("number of clients entering the queue per timer interval");
+    partialClientsVector.setInterpolationMode(cOutVector::NONE);
+
+    newClientMessage = new cMessage("new_client");
     timerMessage = new cMessage("timer");
-    scheduleAt(simTime(), timerMessage);
+
+    scheduleAt(simTime(), newClientMessage);
+    scheduleAt(simTime()+par("timerInterval").doubleValue(), timerMessage);
+
 }
 
 void Source::handleMessage(cMessage *msg)
 {
-    ASSERT(msg==timerMessage);
+    ASSERT(msg==newClientMessage);
 
-    cMessage *job = new cMessage("client");
-    send(job, "out");
+    std::string rec_name = msg->getName();
+    if(rec_name.compare("new_client")==0) {
+        cMessage *job = new cMessage("client");
+        send(job, "out"); // send client to the queue
+        n_clients_sent++;
+        scheduleAt(simTime()+par("sendInterval").doubleValue(), newClientMessage);
+    }
+    else if (rec_name.compare("timer")==0){
 
-    scheduleAt(simTime()+par("sendInterval").doubleValue(), timerMessage);
+        partial_n = n_clients_sent - prev_count;
+        prev_count = n_clients_sent;
+
+        partialClientsVector.record(partial_n);
+        scheduleAt(simTime()+par("timerInterval").doubleValue(), timerMessage);
+    }
 }
 
 }; // namespace

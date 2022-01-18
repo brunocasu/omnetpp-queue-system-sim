@@ -22,7 +22,7 @@ simple Queue
 {
     parameters:
         volatile double deltaInterval @unit(s) = 2s;
-        volatile double timerInterval @unit(s) = 60s;
+        volatile double timerInterval @unit(s) = 600s;
         @display("i=block/queue");
     gates:
         input in;

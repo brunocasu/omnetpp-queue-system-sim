@@ -34,16 +34,30 @@ void Queue::initialize()
     lastArrival = simTime();
     iaTimeHistogram.setName("inter arrival times");
     iaTimeHistogram.setBinSizeHint(10);
+
     procTimeHistogram.setName("processing times");
     procTimeHistogram.setBinSizeHint(10);
-    queue_sizeVector.setName("queue size");
-    queue_sizeVector.setInterpolationMode(cOutVector::NONE);
+
     time_in_queueVector.setName("time spent on the queue");
     time_in_queueVector.setInterpolationMode(cOutVector::NONE);
+
     client_proc_orderVector.setName("client processing order");
     client_proc_orderVector.setInterpolationMode(cOutVector::NONE);
+
     proc_timeVector.setName("processing time with client order");
     proc_timeVector.setInterpolationMode(cOutVector::NONE);
+
+    till_proc_orderVector.setName("till processing order");
+    till_proc_orderVector.setInterpolationMode(cOutVector::NONE);
+
+    client_till_timeVector.setName("client total time in the till");
+    client_till_timeVector.setInterpolationMode(cOutVector::NONE);
+
+    queue_sizeVector.setName("queue size per minute");
+    queue_sizeVector.setInterpolationMode(cOutVector::NONE);
+
+    queue_progressionVector.setName("queue size after modification");
+    queue_progressionVector.setInterpolationMode(cOutVector::NONE);
 
     qtimerMessage = new cMessage("timer");
     scheduleAt(simTime()+par("timerInterval").doubleValue(), qtimerMessage);
@@ -52,7 +66,7 @@ void Queue::initialize()
 
 void Queue::handleMessage(cMessage *msg)
 {
-    ASSERT(msg==qtimerMessage);
+    //ASSERT(msg==qtimerMessage);
     EV << "Received " << msg->getName() << endl;
     std::string rec_name = msg->getName();
     int till_to_send = -1; // assigned till number is undefined at the start
@@ -89,6 +103,8 @@ void Queue::handleMessage(cMessage *msg)
             // find the number of the client at the head of the queue, and assign it to till N (till_to_send)
             queue_control_position[till_to_send] = tot_n_clients - n_clients_in_queue;
 
+            sent_to_tillTime[till_to_send] = simTime();
+
             std::string tmp = std::to_string(till_to_send);
             const char *num_char = tmp.c_str();
             char out_port[] = "t_out";
@@ -101,11 +117,13 @@ void Queue::handleMessage(cMessage *msg)
             EV << "CLIENT TO TILL " << till_to_send << " ("<< out_port << ")" <<  endl;
 
             n_clients_in_queue--; // remove client from the queue
+            queue_progressionVector.record(n_clients_in_queue);
             // mark exit time
             // calculate total time in the queue
         }
         else { // No Tills available
             EV << "ALL TILLS FULL" << endl;
+            queue_progressionVector.record(n_clients_in_queue);
         }
         delete msg;
     }
@@ -118,6 +136,8 @@ void Queue::handleMessage(cMessage *msg)
         procTimeHistogram.collect(procTime);
         client_proc_orderVector.record(queue_control_position[rec_till_n]);
         proc_timeVector.record(procTime);
+        till_proc_orderVector.record(rec_till_n);
+        client_till_timeVector.record(simTime() - sent_to_tillTime[rec_till_n] );
 
         EV << "TILL " << rec_till_n << " IS FREE" << endl;
 
@@ -130,6 +150,8 @@ void Queue::handleMessage(cMessage *msg)
 
             // find the number of the client at the head of the queue, and assign it to the free till (till_to_send)
             queue_control_position[rec_till_n] = tot_n_clients - n_clients_in_queue;
+
+            sent_to_tillTime[rec_till_n] = simTime();
 
             std::string tmp = std::to_string(rec_till_n);
             const char *num_char = tmp.c_str();
@@ -145,6 +167,7 @@ void Queue::handleMessage(cMessage *msg)
             EV << "CLIENT SENT TO " << out_port << endl;
 
             n_clients_in_queue--; // remove client from the queue
+            queue_progressionVector.record(n_clients_in_queue);
             // mark exit time
             // calculate total time in the queue
             std::string Q;
@@ -159,7 +182,7 @@ void Queue::handleMessage(cMessage *msg)
         delete msg;
     }
     else if (rec_name.compare("timer")==0){
-        queue_sizeVector.record(n_clients_in_queue);
+        queue_sizeVector.record(n_clients_in_queue); // queue size every timer interval
         scheduleAt(simTime()+par("timerInterval").doubleValue(), qtimerMessage);
     }
 

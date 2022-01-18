@@ -28,7 +28,13 @@ namespace the_carrefour {
 class Source : public cSimpleModule
 {
   private:
+    cMessage *newClientMessage;
     cMessage *timerMessage;
+    cOutVector partialClientsVector; // number of new clients in the timer interval
+    int n_clients_sent = 0;
+    int prev_count = 0;
+    int partial_n = 0;
+    int intital_set = 0;
 
   public:
      Source();

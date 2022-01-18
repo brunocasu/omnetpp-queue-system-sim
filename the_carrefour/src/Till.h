@@ -13,6 +13,8 @@ class Till : public cSimpleModule
 {
   private:
     simtime_t procTimeVal;
+    simtime_t constProcVal;
+    simtime_t beginProcTime;
     int is_proc = 0;
     int is_cfg_msg = 0;
     int till_number = 0;

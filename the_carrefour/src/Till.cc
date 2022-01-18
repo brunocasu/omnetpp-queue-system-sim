@@ -39,19 +39,27 @@ void Till::handleMessage(cMessage *msg)
             till_number = tempMsg->getTill_n();
             is_cfg_msg = 1;
         }
-        is_proc = 1;
-        Till2queue *proc_job = new Till2queue("end_proc");
+        //is_proc = 1;
         EV << "RECEIVED CLIENT AT TILL " << till_number << endl;
+
+        beginProcTime = simTime();
+        Till2queue *fix_proc = new Till2queue("fixed_proc");
+        constProcVal = par("minProcInterval").doubleValue();
+        scheduleAt(simTime()+constProcVal, fix_proc); // add minimum processing time
+    }
+    else if (message_name.compare("fixed_proc")==0){
+        Till2queue *proc_job = new Till2queue("end_proc");
         procTimeVal = par("procInterval").doubleValue();
-        scheduleAt(simTime()+procTimeVal, proc_job); // define the time to process the client
+        scheduleAt(simTime()+procTimeVal, proc_job); // add random time to processing
     }
     else if (message_name.compare("end_proc")==0){
         Till2queue *job = new Till2queue("empty");
         job->setTill_n(till_number);
-        job->setProcTime(procTimeVal);
+        job->setProcTime(simTime() - beginProcTime);
         send(job, "out");
-        is_proc = 0;
+        //is_proc = 0;
         EV << "TILL " << till_number << " PROCESSED CLIENT" << endl;
+
     }
 
     delete msg;

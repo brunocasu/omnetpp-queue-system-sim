@@ -1,15 +1,15 @@
-file 113787 1642045575                                          
+file 215193 1642465557                                          
 version 2
-run General-0-20220113-04:46:09-14060
+run General-0-20220118-01:25:53-17008
 attr configname General
-attr datetime 20220113-04:46:09
+attr datetime 20220118-01:25:53
 attr experiment General
 attr inifile omnetpp.ini
 attr iterationvars ""
 attr iterationvarsf ""
 attr measurement ""
 attr network PolicyA
-attr processid 14060
+attr processid 17008
 attr repetition 0
 attr replication #0
 attr resultdir results
@@ -18,14 +18,26 @@ attr seedset 0
 
 vector 0 PolicyA.queue "time spent on the queue" ETV
 attr interpolationmode none
-vector 1 PolicyA.queue "queue size" ETV
+vector 1 PolicyA.queue "queue size after modification" ETV
 attr interpolationmode none
 vector 2 PolicyA.queue "client processing order" ETV
 attr interpolationmode none
 vector 3 PolicyA.queue "processing time with client order" ETV
 attr interpolationmode none
-0	700 31790 2 8068 0 57554.352 1424 0 519.124 91842.091 19825318.175223
-1	32490 15060 7 8072 60 57600 960 0 12 1525 8793
-2	47550 30920 16 8071 136.784 57569.815 1420 0 1423 1007510 953478060
-3	78470 35315 16 8071 136.784 57569.815 1420 0.008 934.115 217575.858 65332923.23458
+vector 4 PolicyA.queue "till processing order" ETV
+attr interpolationmode none
+vector 5 PolicyA.queue "client total time in the till" ETV
+attr interpolationmode none
+vector 6 PolicyA.source "number of clients entering the queue per timer interval" ETV
+attr interpolationmode none
+vector 7 PolicyA.queue "queue size per minute" ETV
+attr interpolationmode none
+0	1086 33554 2 8559 0 57587.098 1394 0 923.969 369329.667 190685371.70639
+1	34640 50142 2 8559 0 57587.098 2515 0 24 19025 252309
+2	84782 30265 24 8559 220.39 57587.098 1389 0 1390 963968 892316750
+3	115047 34878 24 8559 220.39 57587.098 1389 30.009 964.115 251763.082 76458989.24172
+4	149925 27208 24 8559 220.39 57587.098 1389 0 4 2725 8061
+5	177133 34927 24 8559 220.39 57587.098 1389 33.713 972.115 259991.082 79456794.95372
+6	212060 1594 83 8561 600 57600 96 5 27 1403 22199
+7	213654 1537 84 8562 600 57600 96 0 22 634 8604
 
