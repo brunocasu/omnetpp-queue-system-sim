@@ -15,25 +15,49 @@
 
 package the_carrefour.simulations;
 
-import the_carrefour.Source;
-import the_carrefour.Queue;
-import the_carrefour.Till;
+import the_carrefour.SourceA;
+import the_carrefour.QueueA;
+import the_carrefour.TillA;
 
 network PolicyA
-{
+{      
     submodules:
-        source: Source;
-        queue: Queue;
-        till0: Till;
-        till1: Till;
-        till2: Till;
-        till3: Till;
-        till4: Till;
-        till5: Till;
-        till6: Till;
-        till7: Till;
-        till8: Till;
-        till9: Till;
+        source: SourceA{
+        	@display("p=400,350");
+        }
+        queue: QueueA{
+        	@display("p=200,300");
+        }
+        till0: TillA{
+            @display("p=200,100");
+        }
+        till1: TillA{
+            @display("p=300,100");
+        }
+        till2: TillA{
+            @display("p=400,100");
+        }
+        till3: TillA{
+            @display("p=500,100");
+        }
+        till4: TillA{
+            @display("p=600,100");
+        }
+        till5: TillA{
+            @display("p=700,100");
+        }
+        till6: TillA{
+            @display("p=800,100");
+        }
+        till7: TillA{
+            @display("p=900,100");
+        }
+        till8: TillA{
+            @display("p=1000,100");
+        }
+        till9: TillA{
+            @display("p=1100,100");
+        }
     connections:
         source.out --> queue.in;
         queue.t_out0 --> till0.in;

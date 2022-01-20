@@ -1,6 +1,0 @@
-parameters used
-Policy a
-volatile double procInterval @unit(s) = default(exponential(150s));
-volatile double sendInterval @unit(s) = default(exponential(40s));
-volatile double deltaInterval @unit(s) = 2s;
-#define N_TILLS     5
