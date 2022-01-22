@@ -1,15 +1,28 @@
-/*
- * TillB.h
- *
- *  Created on: 20 de jan. de 2022
- *      Author: bruno
- */
+#ifndef __THE_CARREFOUR_TILLB_H
+#define __THE_CARREFOUR_TILLB_H
 
-#ifndef TILLB_H_
-#define TILLB_H_
+#include <omnetpp.h>
+#include "till2queue_m.h"
 
+using namespace omnetpp;
 
+namespace the_carrefour {
 
 
+class TillB : public cSimpleModule
+{
+  private:
+    simtime_t procTimeVal;
+    simtime_t constProcVal;
+    simtime_t beginProcTime;
+    int is_proc = 0;
 
-#endif /* TILLB_H_ */
+  protected:
+    virtual void initialize();
+    virtual void handleMessage(cMessage *msg);
+    virtual void finish();
+};
+
+}; // namespace
+
+#endif

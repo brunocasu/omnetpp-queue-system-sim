@@ -12,7 +12,6 @@ using namespace omnetpp;
 namespace the_carrefour {
 
 #define N_TILLS     10
-#define TIMER_INTERVAL      60
 #define QUEUE_CONTROL_SIZE  2000 // maximum size for time entering control
 
 

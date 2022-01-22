@@ -26,34 +26,34 @@ network PolicyB
         	@display("p=550,400");
         }
         queue0: QueueB{
-        	@display("p=200,150");
+        	@display("p=200,200");
         }
         queue1: QueueB{
-        	@display("p=300,150");
+        	@display("p=300,200");
         }
         queue2: QueueB{
-        	@display("p=400,150");
+        	@display("p=400,200");
         }
         queue3: QueueB{
-        	@display("p=500,150");
+        	@display("p=500,200");
         }
         queue4: QueueB{
-        	@display("p=600,150");
+        	@display("p=600,200");
         }
         queue5: QueueB{
-        	@display("p=700,150");
+        	@display("p=700,200");
         }
         queue6: QueueB{
-        	@display("p=800,150");
+        	@display("p=800,200");
         }
         queue7: QueueB{
-        	@display("p=900,150");
+        	@display("p=900,200");
         }
         queue8: QueueB{
-        	@display("p=1000,150");
+        	@display("p=1000,200");
         }
         queue9: QueueB{
-        	@display("p=1100,150");
+        	@display("p=1100,200");
         }
         till0: TillB{
             @display("p=200,100");

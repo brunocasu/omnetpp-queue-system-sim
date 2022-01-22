@@ -2,6 +2,7 @@
 #define __THE_CARREFOUR_SOURCEB_H
 
 #include <omnetpp.h>
+#include "till2queue_m.h"
 
 using namespace omnetpp;
 
@@ -36,7 +37,8 @@ class SourceB : public cSimpleModule
     virtual void initialize();
     virtual void handleMessage(cMessage *msg);
     int find_empty_till(void);
-    int find_smalest_queue(void);
+    int find_smallest_queue(void);
+    void send_client_to_queue(int queue_n);
 };
 
 }; // namespace
