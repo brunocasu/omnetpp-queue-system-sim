@@ -21,7 +21,7 @@ package the_carrefour;
 simple TillB
 {
     parameters:
-        volatile double procInterval @unit(s) = default(exponential(550s));
+        volatile double procInterval @unit(s) = default(exponential(150s));
         volatile double minProcInterval @unit(s) = 30s;
         @display("i=block/sink");
     gates:

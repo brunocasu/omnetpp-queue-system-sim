@@ -19,7 +19,11 @@ class SourceB : public cSimpleModule
     cMessage *newClientMessage;
     cMessage *timerMessage;
     //cMessage *initMessage;
+    simtime_t lastArrival;
 
+    cHistogram randomTillSelectionHist;
+    cHistogram randomQueueSelectionHist;
+    cHistogram iaGenerationHist;
     cOutVector partialClientsVector; // number of new clients in the timer interval
     int n_clients_sent = 0;
     int prev_count = 0;
@@ -36,6 +40,8 @@ class SourceB : public cSimpleModule
   protected:
     virtual void initialize();
     virtual void handleMessage(cMessage *msg);
+    virtual void finish();
+
     int find_empty_till(void);
     int find_smallest_queue(void);
     void send_client_to_queue(int queue_n);

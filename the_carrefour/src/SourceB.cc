@@ -18,8 +18,19 @@ SourceB::~SourceB()
 
 void SourceB::initialize()
 {
+    lastArrival = simTime();
+
     partialClientsVector.setName("number of clients entering the queue per timer interval");
     partialClientsVector.setInterpolationMode(cOutVector::NONE);
+
+    randomQueueSelectionHist.setName("Queue selection distribution");
+    randomQueueSelectionHist.setBinSizeHint(1);
+
+    randomTillSelectionHist.setName("Till selection distribution");
+    randomTillSelectionHist.setBinSizeHint(1);
+
+    iaGenerationHist.setName("IA client generation times");
+    iaGenerationHist.setBinSizeHint(10);
 
     newClientMessage = new cMessage("new_client");
     //timerMessage = new cMessage("timer");
@@ -36,6 +47,9 @@ void SourceB::handleMessage(cMessage *msg)
     int queue_to_send;
 
     if(rec_name.compare("new_client")==0) {
+        simtime_t iaTime = simTime() - lastArrival;
+        iaGenerationHist.collect(iaTime); // collect inter arrival times
+        lastArrival = simTime();
         n_clients_sent++;
         queue_to_send = find_empty_till(); // if more than one till is idle, return one of those at random
         if (queue_to_send >= 0){ // found and idle till, send to it (priority over queues with size zero, but not idle)
@@ -75,6 +89,11 @@ void SourceB::handleMessage(cMessage *msg)
     }
 }
 
+void SourceB::finish(){
+    recordStatistic(&randomQueueSelectionHist);
+    recordStatistic(&randomTillSelectionHist);
+}
+
 /**
  *
  *
@@ -98,6 +117,7 @@ int SourceB::find_empty_till(void){
         empty_till_array[empty_tills_found[0]] = 1;
 
         EV << "CHOSEN QUEUE" << empty_tills_found[0] << " (one Empty Till found)" << endl;
+        randomTillSelectionHist.collect(empty_tills_found[0]);
         return empty_tills_found[0];
     }
     else if ((amount_of_empty_tills>1) && (amount_of_empty_tills<=N_TILLS)){ //found multiple idle tills, randomly chooses one
@@ -105,6 +125,7 @@ int SourceB::find_empty_till(void){
         empty_till_array[empty_tills_found[rand_pos]] = 1;
 
         EV << "CHOSEN QUEUE" << empty_tills_found[rand_pos] << " (Empty Tills rand decision)" << endl;
+        randomTillSelectionHist.collect(empty_tills_found[rand_pos]);
         return empty_tills_found[rand_pos];
     }
     else {
@@ -142,10 +163,12 @@ int SourceB::find_smallest_queue(void){
     if (n_queues_found > 1){ // decide to which queue to send the client
         int rand_pos = intuniform(0, n_queues_found-1);
         EV << "CHOSEN QUEUE" << smallest_queue_array[rand_pos] << " (random choice)" << endl;
+        randomQueueSelectionHist.collect(smallest_queue_array[rand_pos]);
         return smallest_queue_array[rand_pos];
     }
     else {
         EV << "CHOSEN QUEUE" << curr_smallest_queue << " (one found)" << endl;
+        randomQueueSelectionHist.collect(curr_smallest_queue);
         return curr_smallest_queue;
     }
 
