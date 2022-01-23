@@ -1,15 +1,15 @@
-                                                                
+file 95959 1642897064                                           
 version 2
-run General-0-20220122-01:46:34-10488
+run General-0-20220123-01:16:32-20028
 attr configname General
-attr datetime 20220122-01:46:34
+attr datetime 20220123-01:16:32
 attr experiment General
 attr inifile omnetpp.ini
 attr iterationvars ""
 attr iterationvarsf ""
 attr measurement ""
 attr network PolicyB
-attr processid 10488
+attr processid 20028
 attr repetition 0
 attr replication #0
 attr resultdir results
@@ -20,5 +20,45 @@ vector 0 PolicyB.queue4 "time spent on the queue" ETV
 attr interpolationmode none
 vector 1 PolicyB.queue4 "queue size after modification" ETV
 attr interpolationmode none
-0	545 9 2 2 0 0 1 0 0 0 0
-1	554 9 2 2 0 0 1 0 0 0 0
+vector 2 PolicyB.queue1 "time spent on the queue" ETV
+attr interpolationmode none
+vector 3 PolicyB.queue1 "queue size after modification" ETV
+attr interpolationmode none
+vector 4 PolicyB.queue2 "time spent on the queue" ETV
+attr interpolationmode none
+vector 5 PolicyB.queue2 "queue size after modification" ETV
+attr interpolationmode none
+vector 6 PolicyB.queue3 "time spent on the queue" ETV
+attr interpolationmode none
+vector 7 PolicyB.queue3 "queue size after modification" ETV
+attr interpolationmode none
+vector 8 PolicyB.queue0 "time spent on the queue" ETV
+attr interpolationmode none
+vector 9 PolicyB.queue0 "queue size after modification" ETV
+attr interpolationmode none
+vector 10 PolicyB.queue2 "processing time with client order" ETV
+attr interpolationmode none
+vector 11 PolicyB.queue3 "processing time with client order" ETV
+attr interpolationmode none
+vector 12 PolicyB.queue0 "processing time with client order" ETV
+attr interpolationmode none
+vector 13 PolicyB.queue4 "processing time with client order" ETV
+attr interpolationmode none
+vector 14 PolicyB.queue1 "processing time with client order" ETV
+attr interpolationmode none
+0	1716 2292 2 7824 0 56521.661 94 0 307.18 7108.421 940277.407579
+1	4008 13651 2 7966 0 57589.718 640 0 453 147418 45174196
+2	17659 2239 5 7947 17.971 57484.884 92 0 244.383 5448.353 555328.418715
+3	19898 13584 5 7958 17.971 57555.174 636 0 453 143636 43188206
+4	33482 2198 10 7887 55.163 57043.633 89 0 305.182 7360.839 1036582.465701
+5	35680 13476 10 7964 55.163 57587.079 630 0 453 145487 44403743
+6	49156 2584 13 7870 74.703 56874.178 105 0 344.613 8135.787 1094029.293821
+7	51740 14101 13 7962 74.703 57560.482 662 0 453 150515 46110399
+8	65841 2767 16 7883 84.406 57027.869 113 0 334.549 8422.509 1120685.259087
+9	68608 14413 16 7960 84.406 57557.912 678 0 453 152727 46828055
+10	83021 2346 32 7887 279.401 57043.633 88 31.474 2715.924 56988.47 63107700.778532
+11	85367 2751 36 7870 279.799 56874.178 104 32.862 2163.344 56799.475 54625587.718427
+12	88118 2958 52 7883 380.387 57027.869 112 39.464 2341.023 56943.463 55739484.320647
+13	91076 2469 71 7824 537.773 56521.661 93 31.707 2702.57 56521.661 60090857.892147
+14	93545 2412 134 7947 1121.321 57484.884 91 32.589 2582.154 57466.913 62896259.895287
+

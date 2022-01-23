@@ -6,17 +6,16 @@ Define_Module(QueueB);
 
 QueueB::QueueB()
 {
-    qtimerMessage = NULL;
+    //qtimerMessage = NULL;
 }
 
 QueueB::~QueueB()
 {
-    cancelAndDelete(qtimerMessage);
+    //cancelAndDelete(qtimerMessage);
 }
 
 void QueueB::initialize()
 {
-    queue_number = -1;
 
     lastArrival = simTime();
     iaLocalTimeHistogram.setName("local inter arrival times");
@@ -37,8 +36,8 @@ void QueueB::initialize()
     queue_progressionVector.setName("queue size after modification");
     queue_progressionVector.setInterpolationMode(cOutVector::NONE);
 
-    qtimerMessage = new cMessage("timer");
-    scheduleAt(simTime()+par("timerInterval").doubleValue(), qtimerMessage);
+    //qtimerMessage = new cMessage("timer");
+    //scheduleAt(simTime()+par("timerInterval").doubleValue(), qtimerMessage);
 
 }
 
@@ -49,15 +48,15 @@ void QueueB::handleMessage(cMessage *msg)
     std::string rec_name = msg->getName();
     Till2queue *tempMsg;
     tempMsg = (Till2queue*)msg;
-    if (queue_number == -1){
-        queue_number = tempMsg->getTill_n();
-    }
+
     //int till_to_send = -1; // assigned till number is undefined at the start
     //test_fun(2);
     if (rec_name.compare("client")==0){ //received a new client from the source
-
+        queue_number = tempMsg->getTill_n();
         EV << "QUEUE " << queue_number << " RECEIVED CLIENT = "<< tot_n_clients << endl;
-        EV << "CURRENT QUEUE: " << n_clients_in_queue << " CLIENT(S)" << endl;
+
+        n_clients_in_queue++; // increase the number of clients currently in the queue
+        tot_n_clients++; // increase total number of clients that entered the queue
 
         collect_new_client_entry_data();
 
@@ -75,6 +74,7 @@ void QueueB::handleMessage(cMessage *msg)
         else {
             EV << "QUEUE CONTROL ERROR" << endl;
         }
+        EV << "CURRENT QUEUE: " << n_clients_in_queue << " CLIENT(S)" << endl;
         delete msg;
     }
     else if (rec_name.compare("empty")==0){ // till processed the client
@@ -105,8 +105,8 @@ void QueueB::handleMessage(cMessage *msg)
         delete msg;
     }
     else if (rec_name.compare("timer")==0){
-        queue_sizeVector.record(n_clients_in_queue); // queue size every timer interval
-        scheduleAt(simTime()+par("timerInterval").doubleValue(), qtimerMessage);
+        //queue_sizeVector.record(n_clients_in_queue); // queue size every timer interval
+        //scheduleAt(simTime()+par("timerInterval").doubleValue(), qtimerMessage);
     }
 }
 
@@ -130,9 +130,6 @@ void QueueB::collect_new_client_entry_data(void){
     lastArrival = simTime();
 
     entryQueueTime = simTime();
-
-    n_clients_in_queue++; // increase the number of clients currently in the queue
-    tot_n_clients++; // increase total number of clients that entered the queue
 }
 
 /**
@@ -143,7 +140,7 @@ void QueueB::collect_new_client_entry_data(void){
  * the target till remains in idle while the message does not reach it
  */
 void QueueB::dispatch_client(void){
-    cMessage *job = new cMessage("client");
+    Till2queue *job = new Till2queue("client");
     send(job, "t_out");
     //sendDelayed(job, (1+till_to_send)*(par("deltaInterval").doubleValue()), out_port);
 

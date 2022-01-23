@@ -7,13 +7,13 @@ Define_Module(SourceB);
 SourceB::SourceB()
 {
     newClientMessage = NULL;
-    timerMessage = NULL;
+    //timerMessage = NULL;
 }
 
 SourceB::~SourceB()
 {
     cancelAndDelete(newClientMessage);
-    cancelAndDelete(timerMessage);
+    //cancelAndDelete(timerMessage);
 }
 
 void SourceB::initialize()
@@ -22,10 +22,10 @@ void SourceB::initialize()
     partialClientsVector.setInterpolationMode(cOutVector::NONE);
 
     newClientMessage = new cMessage("new_client");
-    timerMessage = new cMessage("timer");
+    //timerMessage = new cMessage("timer");
 
     scheduleAt(simTime(), newClientMessage);
-    scheduleAt(simTime()+par("timerInterval").doubleValue(), timerMessage);
+    //scheduleAt(simTime()+par("timerInterval").doubleValue(), timerMessage);
 
 }
 
@@ -39,11 +39,13 @@ void SourceB::handleMessage(cMessage *msg)
         n_clients_sent++;
         queue_to_send = find_empty_till(); // if more than one till is idle, return one of those at random
         if (queue_to_send >= 0){ // found and idle till, send to it (priority over queues with size zero, but not idle)
+            EV << "SEND TO EMTPTY TILL N:" << queue_to_send << endl;
             send_client_to_queue(queue_to_send);
         }
         else { // no idle tills, proceed to find the queue with the smallest size, and send the client to it
             queue_to_send = find_smallest_queue();
             if (queue_to_send>=0 && queue_to_send<N_TILLS){
+                EV << "SEND TO SMALLEST QUEUE N:" << queue_to_send << endl;
                 send_client_to_queue(queue_to_send);
                 queue_size_array[queue_to_send]++;
             }
@@ -69,7 +71,7 @@ void SourceB::handleMessage(cMessage *msg)
         prev_count = n_clients_sent;
 
         partialClientsVector.record(partial_n);
-        scheduleAt(simTime()+par("timerInterval").doubleValue(), timerMessage);
+        //scheduleAt(simTime()+par("timerInterval").doubleValue(), timerMessage);
     }
 }
 
@@ -85,20 +87,24 @@ int SourceB::find_empty_till(void){
         if (empty_till_array[i]==0){
             empty_tills_found[amount_of_empty_tills] = i;
             amount_of_empty_tills++;
-            empty_till_array[i] = 1; // allocate till
         }
     }
 
+    EV << "FOUND " << amount_of_empty_tills << " EMPTY TILLS" << endl;
     if (amount_of_empty_tills==0){ // no idle tills found
         return -1;
     }
     else if (amount_of_empty_tills==1){ // one idle till found, send message to it
         empty_till_array[empty_tills_found[0]] = 1;
+
+        EV << "CHOSEN QUEUE" << empty_tills_found[0] << " (one Empty Till found)" << endl;
         return empty_tills_found[0];
     }
     else if ((amount_of_empty_tills>1) && (amount_of_empty_tills<=N_TILLS)){ //found multiple idle tills, randomly chooses one
         int rand_pos = intuniform(0, amount_of_empty_tills-1);
         empty_till_array[empty_tills_found[rand_pos]] = 1;
+
+        EV << "CHOSEN QUEUE" << empty_tills_found[rand_pos] << " (Empty Tills rand decision)" << endl;
         return empty_tills_found[rand_pos];
     }
     else {
@@ -121,19 +127,25 @@ int SourceB::find_smallest_queue(void){
         if (queue_size_array[i] < queue_size_array[curr_smallest_queue]){
             curr_smallest_queue = i;
         }
+        EV << "Queue size array pos (" << i << ") value:" << queue_size_array[i] << endl;
     }
     int n=0;
     for (int i=0; i<N_TILLS; i++){
         if (queue_size_array[i] == queue_size_array[curr_smallest_queue]){
             smallest_queue_array[n] = i;
+            n++;
+            EV << "Smallest queue array pos (" << n << ") value:" << i << endl;
             n_queues_found++;
         }
     }
+    EV << "FOUND " << n_queues_found << " SMALLEST QUEUE(S) WITH SIZE" << smallest_queue_array[0] << endl;
     if (n_queues_found > 1){ // decide to which queue to send the client
         int rand_pos = intuniform(0, n_queues_found-1);
+        EV << "CHOSEN QUEUE" << smallest_queue_array[rand_pos] << " (random choice)" << endl;
         return smallest_queue_array[rand_pos];
     }
     else {
+        EV << "CHOSEN QUEUE" << curr_smallest_queue << " (one found)" << endl;
         return curr_smallest_queue;
     }
 
