@@ -6,7 +6,7 @@
 
 using namespace omnetpp;
 
-#define N_TILLS     5
+#define N_TILLS     10
 
 namespace the_carrefour {
 

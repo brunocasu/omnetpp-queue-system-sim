@@ -16,6 +16,8 @@ class TillB : public cSimpleModule
     simtime_t constProcVal;
     simtime_t beginProcTime;
     int is_proc = 0;
+    int n_clients_proc = 0;
+    int till_number;
 
   protected:
     virtual void initialize();

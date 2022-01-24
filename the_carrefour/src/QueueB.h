@@ -12,7 +12,7 @@ using namespace omnetpp;
 namespace the_carrefour {
 
 #define N_TILLS     10
-#define QUEUE_CONTROL_SIZE  2000 // maximum size for time entering control
+#define QUEUE_CONTROL_SIZE  20000 // maximum size for time entering control
 
 
 class QueueB : public cSimpleModule
@@ -26,7 +26,7 @@ class QueueB : public cSimpleModule
     cMessage *qtimerMessage;
 
     simtime_t lastArrival;
-    simtime_t entryQueueTime;
+    simtime_t entryQueueTime[QUEUE_CONTROL_SIZE];
     simtime_t sent_to_tillTime;
 
     cHistogram iaLocalTimeHistogram; // inter arrival time histogram for this queue
@@ -52,6 +52,7 @@ class QueueB : public cSimpleModule
     void collect_new_client_entry_data(void);
     void dispatch_client(void);
     void collect_processing_data(simtime_t procTime);
+    void collect_client_dispatch_data(void);
 };
 
 

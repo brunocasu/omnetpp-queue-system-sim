@@ -25,7 +25,7 @@ void TillB::handleMessage(cMessage *msg)
 
     if (message_name.compare("client")==0){ // received a client
         // EV << "RECEIVED CLIENT AT TILL " << endl;
-
+        till_number = tempMsg->getTill_n();
         beginProcTime = simTime();
         Till2queue *fix_proc = new Till2queue("fixed_proc");
         constProcVal = par("minProcInterval").doubleValue();
@@ -37,6 +37,7 @@ void TillB::handleMessage(cMessage *msg)
         scheduleAt(simTime()+procTimeVal, proc_job); // add random time to processing
     }
     else if (message_name.compare("end_proc")==0){
+        n_clients_proc++;
         Till2queue *job = new Till2queue("empty");
         job->setProcTime(simTime() - beginProcTime);
         send(job, "out");
@@ -47,7 +48,7 @@ void TillB::handleMessage(cMessage *msg)
 
 void TillB::finish()
 {
-
+    EV << "TILL " << till_number << " PROCESSED CLIENTS: " << n_clients_proc << endl;
 }
 
 }; // namespace

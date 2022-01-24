@@ -55,13 +55,10 @@ void QueueB::handleMessage(cMessage *msg)
         queue_number = tempMsg->getTill_n();
         EV << "QUEUE " << queue_number << " RECEIVED CLIENT = "<< tot_n_clients << endl;
 
-        n_clients_in_queue++; // increase the number of clients currently in the queue
-        tot_n_clients++; // increase total number of clients that entered the queue
-
         collect_new_client_entry_data();
 
         if (empty_till_ctrl == 0){ // if the till is empty, send the client to it
-            time_in_queueVector.record(simTime() - entryQueueTime); // always zero
+            collect_client_dispatch_data();
 
             dispatch_client();
 
@@ -84,7 +81,7 @@ void QueueB::handleMessage(cMessage *msg)
         collect_processing_data(procTime);
 
         if (n_clients_in_queue > 0 ){ // if clients are waiting in the queue, dispatch the next one
-            time_in_queueVector.record(simTime() - entryQueueTime); // calculate client queue time
+            collect_client_dispatch_data();
             dispatch_client();
 
             Till2queue *update_to_source = new Till2queue("update"); // queue size has decreased, inform the source
@@ -129,7 +126,12 @@ void QueueB::collect_new_client_entry_data(void){
     iaLocalTimeHistogram.collect(iaTime); // collect inter arrival times
     lastArrival = simTime();
 
-    entryQueueTime = simTime();
+    if (n_clients_in_queue < QUEUE_CONTROL_SIZE){ // prevents buffer overflow
+        entryQueueTime[n_clients_in_queue] = simTime(); // mark client time entering the queue, he/she is placed in the last position (FIFO queue)
+    }
+
+    n_clients_in_queue++; // increase the number of clients currently in the queue
+    tot_n_clients++; // increase total number of clients that entered the queue
 }
 
 /**
@@ -141,12 +143,22 @@ void QueueB::collect_new_client_entry_data(void){
  */
 void QueueB::dispatch_client(void){
     Till2queue *job = new Till2queue("client");
+    job->setTill_n(queue_number);
     send(job, "t_out");
     //sendDelayed(job, (1+till_to_send)*(par("deltaInterval").doubleValue()), out_port);
 
     n_clients_in_queue--; // remove client from the queue
     empty_till_ctrl = 1; // allocate the till
 }
+
+void QueueB::collect_client_dispatch_data(void){
+    time_in_queueVector.record(simTime() - entryQueueTime[0]); // calculate client queue time
+    for (int k=1; k<QUEUE_CONTROL_SIZE-1; k++){ // move the queue recorded times
+        entryQueueTime[k-1] = entryQueueTime[k];
+    }
+    entryQueueTime[QUEUE_CONTROL_SIZE-1] = 0;
+}
+
 
 /**
  * save the processing time of the client (histogram)
