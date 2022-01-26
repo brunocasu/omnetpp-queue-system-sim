@@ -20,11 +20,8 @@
 namespace the_carrefour {
 
 /**
- * Class generated from <tt>till2queue.msg:21</tt> by nedtool.
+ * Class generated from <tt>till2queue.msg:4</tt> by nedtool.
  * <pre>
- * //
- * // TODO generated message class
- * //
  * packet Till2queue
  * {
  *     int till_n;

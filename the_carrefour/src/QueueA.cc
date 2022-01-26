@@ -18,7 +18,7 @@ void QueueA::initialize()
 {
     lastArrival = simTime();
     iaTimeHistogram.setName("inter arrival times");
-    iaTimeHistogram.setBinSizeHint(5);
+    iaTimeHistogram.setBinSizeHint(10);
 
     procTimeHistogram.setName("processing times");
     procTimeHistogram.setBinSizeHint(10);
@@ -51,12 +51,11 @@ void QueueA::initialize()
 
 void QueueA::handleMessage(cMessage *msg)
 {
-    //ASSERT(msg==qtimerMessage);
     EV << "Received " << msg->getName() << endl;
     std::string rec_name = msg->getName();
     int till_to_send = -1; // assigned till number is undefined at the start
-    //test_fun(2);
-    if (rec_name.compare("client")==0){ //received a new client from the source
+
+    if (rec_name.compare("client")==0){ // received a new client from the source
 
         EV << "RECEIVED CLIENT N = "<< tot_n_clients << endl;
         EV << "CURRENT QUEUE: " << n_clients_in_queue << " CLIENT(S)" << endl;
@@ -83,14 +82,13 @@ void QueueA::handleMessage(cMessage *msg)
     else if (rec_name.compare("empty")==0){
         Till2queue *tempMsg;
         tempMsg = (Till2queue*)msg;
-        //string rec_msg = tempMsg->getMsg;
         int rec_till_n = tempMsg->getTill_n(); // read which till sent the message
         simtime_t procTime = tempMsg->getProcTime();
         collect_processing_data(rec_till_n, procTime);
 
         EV << "TILL " << rec_till_n << " IS FREE" << endl;
 
-        if (n_clients_in_queue > 0 ){ // if clients are waiting in the queue, dispatch to the now free till
+        if (n_clients_in_queue > 0 ){ // if clients are waiting in the queue, dispatch the next one to the now free till
             collect_client_dispatch_data (rec_till_n);
 
             dispatch_client(rec_till_n);
@@ -143,12 +141,12 @@ int QueueA::find_empty_till(void){
 }
 
 /**
- * collect inter arrival time for each new client
+ * collect interarrival time for each new client
  * mark the client entry time in the queue
  */
 void QueueA::collect_new_client_entry_data(void){
     simtime_t iaTime = simTime() - lastArrival;
-    iaTimeHistogram.collect(iaTime); // collect inter arrival times
+    iaTimeHistogram.collect(iaTime); // collect interarrival times
     lastArrival = simTime();
 
     if (n_clients_in_queue < QUEUE_CONTROL_SIZE){ // prevents buffer overflow
@@ -195,7 +193,6 @@ void QueueA::dispatch_client(int till_to_send){
 
     Till2queue *job = new Till2queue("client");
     job->setTill_n(till_to_send);
-    //send(job, out_port);
     sendDelayed(job, (1+till_to_send)*(par("deltaInterval").doubleValue()), out_port);
 
     n_clients_in_queue--; // remove client from the queue

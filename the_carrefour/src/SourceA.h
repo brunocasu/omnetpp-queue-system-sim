@@ -7,9 +7,6 @@ using namespace omnetpp;
 
 namespace the_carrefour {
 
-/**
- * Generates messages; see NED file for more info.
- */
 class SourceA : public cSimpleModule
 {
   private:

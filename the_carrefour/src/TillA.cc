@@ -1,10 +1,3 @@
-/*
- * TillA.cc
- *
- *  Created on: 28 de dez. de 2021
- *      Author: bruno casu
- */
-
 #include "TillA.h"
 
 namespace the_carrefour {

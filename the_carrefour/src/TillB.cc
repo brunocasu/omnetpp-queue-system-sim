@@ -1,10 +1,3 @@
-/*
- * TillB.cc
- *
- *  Created on: 28 de dez. de 2021
- *      Author: bruno casu
- */
-
 #include "TillB.h"
 
 namespace the_carrefour {

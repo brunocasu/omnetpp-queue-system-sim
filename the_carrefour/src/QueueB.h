@@ -23,7 +23,6 @@ class QueueB : public cSimpleModule
 
 
     private:
-    cMessage *qtimerMessage;
 
     simtime_t lastArrival;
     simtime_t entryQueueTime[QUEUE_CONTROL_SIZE];

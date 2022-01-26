@@ -7,21 +7,17 @@ Define_Module(SourceB);
 SourceB::SourceB()
 {
     newClientMessage = NULL;
-    //timerMessage = NULL;
 }
 
 SourceB::~SourceB()
 {
     cancelAndDelete(newClientMessage);
-    //cancelAndDelete(timerMessage);
 }
 
 void SourceB::initialize()
 {
     lastArrival = simTime();
 
-    partialClientsVector.setName("number of clients entering the queue per timer interval");
-    partialClientsVector.setInterpolationMode(cOutVector::NONE);
 
     randomQueueSelectionHist.setName("Queue selection distribution");
     randomQueueSelectionHist.setBinSizeHint(1);
@@ -33,10 +29,8 @@ void SourceB::initialize()
     iaGenerationHist.setBinSizeHint(10);
 
     newClientMessage = new cMessage("new_client");
-    //timerMessage = new cMessage("timer");
 
     scheduleAt(simTime(), newClientMessage);
-    //scheduleAt(simTime()+par("timerInterval").doubleValue(), timerMessage);
 
 }
 
@@ -48,7 +42,7 @@ void SourceB::handleMessage(cMessage *msg)
 
     if(rec_name.compare("new_client")==0) {
         simtime_t iaTime = simTime() - lastArrival;
-        iaGenerationHist.collect(iaTime); // collect inter arrival times
+        iaGenerationHist.collect(iaTime); // collect interarrival times
         lastArrival = simTime();
         n_clients_sent++;
         queue_to_send = find_empty_till(); // if more than one till is idle, return one of those at random
@@ -67,36 +61,36 @@ void SourceB::handleMessage(cMessage *msg)
         }
         scheduleAt(simTime()+par("sendInterval").doubleValue(), newClientMessage);
     }
+    // the Source is responsible for keeping track of the number of clients in each queue
+    // the queues send a message (update) each time a client leaves the queue
     else if (rec_name.compare("update")==0){
         Till2queue *tempMsg;
         tempMsg = (Till2queue*)msg;
         int rec_queue_n = tempMsg->getTill_n(); // read which queue sent the message
         queue_size_array[rec_queue_n]--;
     }
+    // the Source also is responsible for knowing if any till is empty, as is the priority to send a client to
+    // the queues send also a message (empty) when it respective till becomes empty
     else if (rec_name.compare("empty")==0){
         Till2queue *tempMsg;
         tempMsg = (Till2queue*)msg;
         int rec_queue_n = tempMsg->getTill_n(); // read which queue sent the message
         empty_till_array[rec_queue_n] = 0; // update that the till is idle
     }
-    else if (rec_name.compare("timer")==0){
 
-        partial_n = n_clients_sent - prev_count;
-        prev_count = n_clients_sent;
-
-        partialClientsVector.record(partial_n);
-        //scheduleAt(simTime()+par("timerInterval").doubleValue(), timerMessage);
-    }
 }
 
 void SourceB::finish(){
+    EV << "TOTAL CLIENTS SENT IN THE SYSTEM " << n_clients_sent << endl;
     recordStatistic(&randomQueueSelectionHist);
     recordStatistic(&randomTillSelectionHist);
 }
 
 /**
- *
- *
+ * check if there are any empty tills
+ * if there is a tie, choose one at random
+ * return the till/queue number, if any empty one is found
+ * return -1 if no empty till were found
  */
 int SourceB::find_empty_till(void){
     int empty_tills_found[N_TILLS] = {0};
@@ -136,8 +130,9 @@ int SourceB::find_empty_till(void){
 }
 
 /**
- *
- *
+ * search for the smallest queue in the system
+ * if there is a tie, choose one at random
+ * return the selected till/queue number
  */
 int SourceB::find_smallest_queue(void){
     int curr_smallest_queue = 0; // index (queue number)
@@ -151,7 +146,7 @@ int SourceB::find_smallest_queue(void){
         EV << "Queue size array pos (" << i << ") value:" << queue_size_array[i] << endl;
     }
     int n=0;
-    for (int i=0; i<N_TILLS; i++){
+    for (int i=0; i<N_TILLS; i++){ // find all queues with the smallest size
         if (queue_size_array[i] == queue_size_array[curr_smallest_queue]){
             smallest_queue_array[n] = i;
             n++;
@@ -174,6 +169,9 @@ int SourceB::find_smallest_queue(void){
 
 }
 
+/**
+ * send the client to the chosen queue
+ */
 void SourceB::send_client_to_queue(int queue_n){
     Till2queue *job = new Till2queue("client");
     job->setTill_n(queue_n);

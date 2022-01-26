@@ -18,8 +18,8 @@ void QueueB::initialize()
 {
 
     lastArrival = simTime();
-    iaLocalTimeHistogram.setName("local inter arrival times");
-    iaLocalTimeHistogram.setBinSizeHint(5);
+    iaLocalTimeHistogram.setName("local interarrival times");
+    iaLocalTimeHistogram.setBinSizeHint(10);
 
     procTimeHistogram.setName("processing times");
     procTimeHistogram.setBinSizeHint(10);
@@ -36,21 +36,14 @@ void QueueB::initialize()
     queue_progressionVector.setName("queue size after modification");
     queue_progressionVector.setInterpolationMode(cOutVector::NONE);
 
-    //qtimerMessage = new cMessage("timer");
-    //scheduleAt(simTime()+par("timerInterval").doubleValue(), qtimerMessage);
-
 }
 
 void QueueB::handleMessage(cMessage *msg)
 {
-    //ASSERT(msg==qtimerMessage);
-    //EV << "Received " << msg->getName() << endl;
     std::string rec_name = msg->getName();
     Till2queue *tempMsg;
     tempMsg = (Till2queue*)msg;
 
-    //int till_to_send = -1; // assigned till number is undefined at the start
-    //test_fun(2);
     if (rec_name.compare("client")==0){ //received a new client from the source
         queue_number = tempMsg->getTill_n();
         EV << "QUEUE " << queue_number << " RECEIVED CLIENT = "<< tot_n_clients << endl;
@@ -101,10 +94,7 @@ void QueueB::handleMessage(cMessage *msg)
         }
         delete msg;
     }
-    else if (rec_name.compare("timer")==0){
-        //queue_sizeVector.record(n_clients_in_queue); // queue size every timer interval
-        //scheduleAt(simTime()+par("timerInterval").doubleValue(), qtimerMessage);
-    }
+
 }
 
 void QueueB::finish()
@@ -118,7 +108,7 @@ void QueueB::finish()
 
 
 /**
- * collect inter arrival time for each new client
+ * collect interarrival time for each new client
  * mark the client entry time in the queue
  */
 void QueueB::collect_new_client_entry_data(void){
@@ -136,21 +126,24 @@ void QueueB::collect_new_client_entry_data(void){
 
 /**
  * send client to designated till
- * add a delay value, corresponding to the distance from the till
- * for higher till numbers, the time to reach increases
- * delay  = (till_n + 1)*delta
- * the target till remains in idle while the message does not reach it
+ * allocate the till
  */
 void QueueB::dispatch_client(void){
     Till2queue *job = new Till2queue("client");
     job->setTill_n(queue_number);
     send(job, "t_out");
-    //sendDelayed(job, (1+till_to_send)*(par("deltaInterval").doubleValue()), out_port);
 
     n_clients_in_queue--; // remove client from the queue
     empty_till_ctrl = 1; // allocate the till
 }
 
+/**
+ * calculate the client time on the queue
+ * shift the collected times in the control vector
+ * position zero of the control vector is always used to calculate the queue time
+ * the queue is in FIFO mode
+ *
+ */
 void QueueB::collect_client_dispatch_data(void){
     time_in_queueVector.record(simTime() - entryQueueTime[0]); // calculate client queue time
     for (int k=1; k<QUEUE_CONTROL_SIZE-1; k++){ // move the queue recorded times
@@ -161,11 +154,9 @@ void QueueB::collect_client_dispatch_data(void){
 
 
 /**
- * save the processing time of the client (histogram)
- * mark the client number in the client order vector (used to identify each client to its processing time)
- * mark the client processing time (same order as the client order vector)
- * mark which till was used by the client
- * mark the total time the client spent in the till, adding the time to reach it (delay)
+ * save the processing time of the client
+ * in the scenario b, the clients at a single queue/till system are always processed in order
+ * no need to collect vectors for client processing synchronization
  */
 void QueueB::collect_processing_data(simtime_t procTime){
     procTimeHistogram.collect(procTime);

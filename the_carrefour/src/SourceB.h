@@ -10,21 +10,17 @@ using namespace omnetpp;
 
 namespace the_carrefour {
 
-/**
- * Generates messages; see NED file for more info.
- */
+
 class SourceB : public cSimpleModule
 {
   private:
     cMessage *newClientMessage;
-    cMessage *timerMessage;
-    //cMessage *initMessage;
     simtime_t lastArrival;
 
-    cHistogram randomTillSelectionHist;
-    cHistogram randomQueueSelectionHist;
+    cHistogram randomTillSelectionHist; // histogram for the random selection of tills when ties happen
+    cHistogram randomQueueSelectionHist; // histogram for the random selection of queues when ties happen
     cHistogram iaGenerationHist;
-    cOutVector partialClientsVector; // number of new clients in the timer interval
+
     int n_clients_sent = 0;
     int prev_count = 0;
     int partial_n = 0;

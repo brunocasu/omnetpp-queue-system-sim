@@ -21,20 +21,18 @@ class QueueA : public cSimpleModule
         QueueA();
         virtual ~QueueA();
 
-
     private:
     cMessage *qtimerMessage;
 
     simtime_t lastArrival;
-    simtime_t entryQueueTime[QUEUE_CONTROL_SIZE];
-    simtime_t sent_to_tillTime[N_TILLS];
+    simtime_t entryQueueTime[QUEUE_CONTROL_SIZE]; // vector to keep track of clients entry time in the queue
+    simtime_t sent_to_tillTime[N_TILLS]; // vector to keep track of clients entry time in the till
 
-    cHistogram iaTimeHistogram; // inter arrival time histogram
-    cHistogram procTimeHistogram; // all queues processing time histogram
-    cOutVector time_in_queueVector; // time each client spent on the queue (sequential client number)
+    cHistogram iaTimeHistogram; // interarrival time histogram
+    cHistogram procTimeHistogram; // processing time histogram
+    cOutVector time_in_queueVector; // time each client spent on the queue (order follows client number)
 
-    // next three vectors are correlated
-    cOutVector client_proc_orderVector; // order in witch clients were processed (data is the client number)
+    cOutVector client_proc_orderVector; // order in which clients were processed (data is the client number)
     cOutVector proc_timeVector; // processing time, stored in the order that clients were processed (to match previous vector client order)
     cOutVector till_proc_orderVector; // identifies the till number that processed the client
 
