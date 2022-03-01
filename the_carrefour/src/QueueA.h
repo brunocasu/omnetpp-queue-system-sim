@@ -40,11 +40,11 @@ class QueueA : public cSimpleModule
     cOutVector queue_sizeVector; // show the queue size in every minute
     cOutVector queue_progressionVector; // show the queue size whenever a client enters it or exits it (accounted after the action)
 
-    int queue_control_position [N_TILLS];
-    int tot_n_clients = 0;
-    int head_queue_client_n = 0;
+    int queue_control_position [N_TILLS]; // array used to track the Client number assigned at each Till number
+    int tot_n_clients = 0; // total number of clients that entered the system
+    int head_queue_client_n = 0; // Client number at the first position of the queue
     int empty_till_array[N_TILLS] = {0}; // identify if a till is in idle or processing: 0 is empty(idle), 1 is processing
-    int n_clients_in_queue = 0;
+    int n_clients_in_queue = 0; // current queue size
 
   protected:
     virtual void initialize();

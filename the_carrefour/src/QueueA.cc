@@ -51,7 +51,6 @@ void QueueA::initialize()
 
 void QueueA::handleMessage(cMessage *msg)
 {
-    EV << "Received " << msg->getName() << endl;
     std::string rec_name = msg->getName();
     int till_to_send = -1; // assigned till number is undefined at the start
 
@@ -69,12 +68,12 @@ void QueueA::handleMessage(cMessage *msg)
 
             dispatch_client(till_to_send);
 
-            EV << "CLIENT TO TILL " << till_to_send <<  endl;
+            EV << "CLIENT DISPATCHED TO TILL " << till_to_send <<  endl;
 
             queue_progressionVector.record(n_clients_in_queue); // mark number of clients in the queue
         }
         else { // No Tills available
-            EV << "ALL TILLS FULL" << endl;
+            EV << "ALL TILLS OCCUPIED" << endl;
             queue_progressionVector.record(n_clients_in_queue); // mark number of clients in the queue
         }
         delete msg;
@@ -86,18 +85,18 @@ void QueueA::handleMessage(cMessage *msg)
         simtime_t procTime = tempMsg->getProcTime();
         collect_processing_data(rec_till_n, procTime);
 
-        EV << "TILL " << rec_till_n << " IS FREE" << endl;
+        EV << "TILL " << rec_till_n << " IS NOW FREE" << endl;
 
         if (n_clients_in_queue > 0 ){ // if clients are waiting in the queue, dispatch the next one to the now free till
             collect_client_dispatch_data (rec_till_n);
 
             dispatch_client(rec_till_n);
 
-            EV << "CLIENT SENT TO " << rec_till_n << endl;
+            EV << "CLIENT DISPATCHED TO " << rec_till_n << endl;
 
             queue_progressionVector.record(n_clients_in_queue);
 
-            EV << "CLIENT DISPATCHED - CURRENT QUEUE: " << n_clients_in_queue << " CLIENT(S)" << endl;
+            EV << "CURRENT QUEUE: " << n_clients_in_queue << " CLIENT(S)" << endl;
 
             empty_till_array[rec_till_n] = 1; // take the till again
         }
@@ -141,7 +140,7 @@ int QueueA::find_empty_till(void){
 }
 
 /**
- * collect interarrival time for each new client
+ * collect interarrival time for each new client:
  * mark the client entry time in the queue
  */
 void QueueA::collect_new_client_entry_data(void){
@@ -174,14 +173,14 @@ void QueueA::collect_client_dispatch_data (int till_to_send){
     // find the number of the client at the head of the queue, and assign it to till N (till_to_send)
     queue_control_position[till_to_send] = tot_n_clients - n_clients_in_queue;
 
-    sent_to_tillTime[till_to_send] = simTime(); // mark exit time from the queue
+    sent_to_tillTime[till_to_send] = simTime(); // mark exit time from the queue for the client in till N
 
 }
 
 /**
  * send client to designated till
  * add a delay value, corresponding to the distance from the till
- * for higher till numbers, the time to reach increases
+ * for higher till numbers, the time to reach the till increases
  * delay  = (till_n + 1)*delta
  * the target till remains in idle while the message does not reach it
  */
