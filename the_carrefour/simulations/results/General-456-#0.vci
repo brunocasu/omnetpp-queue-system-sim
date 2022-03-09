@@ -1,0 +1,43 @@
+file 197047 1646794896                                          
+version 2
+run General-0-20220309-04:01:34-8100
+attr configname General
+attr datetime 20220309-04:01:34
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars $0=456
+attr iterationvarsf 456-
+attr measurement $0=456
+attr network PolicyA
+attr processid 8100
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 456
+
+vector 0 PolicyA.queue "time spent on the queue" ETV
+attr interpolationmode none
+vector 1 PolicyA.queue "queue size after modification" ETV
+attr interpolationmode none
+vector 2 PolicyA.queue "client processing order" ETV
+attr interpolationmode none
+vector 3 PolicyA.queue "processing time with client order" ETV
+attr interpolationmode none
+vector 4 PolicyA.queue "till processing order" ETV
+attr interpolationmode none
+vector 5 PolicyA.queue "client total time in the till" ETV
+attr interpolationmode none
+vector 6 PolicyA.queue "queue size per minute" ETV
+attr interpolationmode none
+vector 7 PolicyA.source "number of clients entering the queue per timer interval" ETV
+attr interpolationmode none
+0	1096 27586 2 9202 0 43120.648 1405 0 67.256 1004.555 40662.894065
+1	28682 28156 2 9202 0 43120.648 1445 0 3 90 168
+2	56838 30423 10 9210 53.361 43189.075 1400 0 1402 979310 913714854
+3	87261 34965 10 9210 53.361 43189.075 1400 30.131 949.135 212145.598 53706048.241318
+4	122226 27333 10 9210 53.361 43189.075 1400 0 9 4392 22580
+5	149559 35032 10 9210 53.361 43189.075 1400 32.131 951.135 223729.598 57331992.785318
+6	184591 11254 11 9212 60 43200 720 0 3 16 30
+7	195845 1200 143 9211 600 43200 72 10 29 1405 28347
+
