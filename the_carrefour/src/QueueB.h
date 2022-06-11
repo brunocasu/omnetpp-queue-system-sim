@@ -11,7 +11,7 @@ using namespace omnetpp;
 
 namespace the_carrefour {
 
-#define N_TILLS     10
+// #define N_TILLS     10
 #define QUEUE_CONTROL_SIZE  20000 // maximum size for time entering control
 
 
@@ -36,7 +36,7 @@ class QueueB : public cSimpleModule
     cOutVector queue_sizeVector; // show the queue size in every minute
     cOutVector queue_progressionVector; // show the queue size whenever a client enters it or exits it (accounted after the action)
 
-    int queue_control_position [N_TILLS];
+    // int queue_control_position [N_TILLS];
     int tot_n_clients = 0;
     int head_queue_client_n = 0;
     int empty_till_ctrl = 0; // identify if the local till is in idle or processing: 0 is empty(idle), 1 is processing

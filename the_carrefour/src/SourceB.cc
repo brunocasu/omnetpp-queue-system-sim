@@ -84,6 +84,7 @@ void SourceB::finish(){
     EV << "TOTAL CLIENTS SENT IN THE SYSTEM " << n_clients_sent << endl;
     recordStatistic(&randomQueueSelectionHist);
     recordStatistic(&randomTillSelectionHist);
+    recordStatistic(&iaGenerationHist);
 }
 
 /**
