@@ -38,7 +38,7 @@ void SourceA::handleMessage(cMessage *msg)
         cMessage *job = new cMessage("client");
         send(job, "out"); // send client to the queue
         n_clients_sent++;
-        scheduleAt(simTime()+par("sendInterval").doubleValue(), newClientMessage);
+        scheduleAt(simTime()+discourage_multiplyer*(par("sendInterval").doubleValue()), newClientMessage);
     }
     else if (rec_name.compare("timer")==0){
 
@@ -47,6 +47,20 @@ void SourceA::handleMessage(cMessage *msg)
 
         partialClientsVector.record(partial_n);
         scheduleAt(simTime()+par("timerInterval").doubleValue(), timerMessage);
+    }
+    else if (rec_name.compare("discourage")==0){
+        Till2queue *tempMsg;
+        tempMsg = (Till2queue*)msg;
+        int rec_queue_size = tempMsg->getTill_n(); // improvised method to transmit the queue size information for the source module
+        EV << "DISCOURAGED MESSAGE RECEIVED - CURRENT QUEUE SIZE = "<< rec_queue_size << endl;
+        if (rec_queue_size < 5) {discourage_multiplyer = 1;}
+        else if (rec_queue_size >= 5 && rec_queue_size < 10) {discourage_multiplyer = 1.1;}
+        else if (rec_queue_size >= 10 && rec_queue_size < 15) {discourage_multiplyer = 1.2;}
+        else if (rec_queue_size >= 15 && rec_queue_size < 20) {discourage_multiplyer = 1.3;}
+        else if (rec_queue_size >= 20 && rec_queue_size < 25) {discourage_multiplyer = 1.4;}
+        else if (rec_queue_size >= 25 && rec_queue_size < 30) {discourage_multiplyer = 1.5;}
+
+
     }
 }
 

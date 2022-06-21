@@ -59,6 +59,8 @@ network PolicyA
             @display("p=1100,100");
         }
     connections:
+        queue.out --> source.in;
+        
         source.out --> queue.in;
         queue.t_out0 --> till0.in;
         till0.out --> queue.t_in0;

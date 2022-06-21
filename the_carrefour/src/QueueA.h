@@ -13,6 +13,7 @@ namespace the_carrefour {
 
 #define N_TILLS     10
 #define QUEUE_CONTROL_SIZE  20000 // maximum size for time entering control
+#define DISCOURAGED_MODE    1 // 1 makes the system use the discouraged arrivals mode
 
 
 class QueueA : public cSimpleModule
@@ -45,6 +46,7 @@ class QueueA : public cSimpleModule
     int head_queue_client_n = 0; // Client number at the first position of the queue
     int empty_till_array[N_TILLS] = {0}; // identify if a till is in idle or processing: 0 is empty(idle), 1 is processing
     int n_clients_in_queue = 0; // current queue size
+
 
   protected:
     virtual void initialize();

@@ -8,6 +8,7 @@ simple QueueA
         @display("i=block/queue");
     gates:
         input in;
+        output out;
         
         input t_in0;
         output t_out0;

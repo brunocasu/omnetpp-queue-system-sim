@@ -58,7 +58,11 @@ void QueueA::handleMessage(cMessage *msg)
 
         EV << "RECEIVED CLIENT N = "<< tot_n_clients << endl;
         EV << "CURRENT QUEUE: " << n_clients_in_queue << " CLIENT(S)" << endl;
-
+        if (DISCOURAGED_MODE == 1 && n_clients_in_queue>5){
+            Till2queue *discourage_job = new Till2queue("discourage");
+            discourage_job->setTill_n(n_clients_in_queue);
+            send(discourage_job, "out");
+        }
         collect_new_client_entry_data();
 
         till_to_send = find_empty_till();

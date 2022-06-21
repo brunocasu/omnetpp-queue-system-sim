@@ -31,7 +31,7 @@ void TillA::handleMessage(cMessage *msg)
     else if (message_name.compare("fixed_proc")==0){
         Till2queue *proc_job = new Till2queue("end_proc");
         procTimeVal = par("procInterval").doubleValue();
-        EV << "LOGNORMAL PROC TIME " << procTimeVal << endl;
+        EV << "PROC TIME " << procTimeVal << endl;
         scheduleAt(simTime()+procTimeVal, proc_job); // add random time to processing
     }
     else if (message_name.compare("end_proc")==0){

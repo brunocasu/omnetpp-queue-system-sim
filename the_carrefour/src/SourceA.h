@@ -2,6 +2,7 @@
 #define __THE_CARREFOUR_SOURCEA_H
 
 #include <omnetpp.h>
+#include "till2queue_m.h"
 
 using namespace omnetpp;
 
@@ -17,6 +18,7 @@ class SourceA : public cSimpleModule
     int prev_count = 0;
     int partial_n = 0;
     int intital_set = 0;
+    double discourage_multiplyer = 1;
 
   public:
      SourceA();
