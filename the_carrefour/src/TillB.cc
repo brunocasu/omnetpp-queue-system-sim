@@ -27,7 +27,18 @@ void TillB::handleMessage(cMessage *msg)
     else if (message_name.compare("fixed_proc")==0){
         Till2queue *proc_job = new Till2queue("end_proc");
         procTimeVal = par("procInterval").doubleValue();
-        scheduleAt(simTime()+procTimeVal, proc_job); // add random time to processing
+        if (FAST_QUEUE_MODE == 0){
+            scheduleAt(simTime()+procTimeVal, proc_job); // add random time to processing
+        }
+        else if (FAST_QUEUE_MODE == 1){
+            if (till_number<7){
+                scheduleAt(simTime()+procTimeVal, proc_job); // Normal tills
+            }
+            if (till_number>=7 && till_number<10){
+                if(procTimeVal > 300){scheduleAt(simTime()+procTimeVal*0.1, proc_job);}// Fast tills}
+                else {scheduleAt(simTime()+procTimeVal*0.5, proc_job);} // Fast tills}
+            }
+        }
     }
     else if (message_name.compare("end_proc")==0){
         n_clients_proc++;

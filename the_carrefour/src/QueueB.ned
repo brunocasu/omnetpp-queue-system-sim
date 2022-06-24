@@ -21,7 +21,7 @@ package the_carrefour;
 simple QueueB
 {
     parameters:
-        volatile double timerInterval @unit(s) = 60s;
+        volatile double timerInterval @unit(s) = 30s;
         @display("i=block/queue");
     gates:
         input s_in; // source input

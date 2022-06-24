@@ -6,6 +6,8 @@
 
 using namespace omnetpp;
 
+#define FAST_QUEUE_MODE     0
+
 namespace the_carrefour {
 
 

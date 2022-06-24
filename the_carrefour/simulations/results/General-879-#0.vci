@@ -1,0 +1,109 @@
+file 132558 1656041371                                          
+version 2
+run General-0-20220624-05:29:28-23484
+attr configname General
+attr datetime 20220624-05:29:28
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars $0=879
+attr iterationvarsf 879-
+attr measurement $0=879
+attr network PolicyB
+attr processid 23484
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 879
+
+vector 0 PolicyB.queue5 "time spent on the queue" ETV
+attr interpolationmode none
+vector 1 PolicyB.queue5 "queue size after modification" ETV
+attr interpolationmode none
+vector 2 PolicyB.queue3 "time spent on the queue" ETV
+attr interpolationmode none
+vector 3 PolicyB.queue3 "queue size after modification" ETV
+attr interpolationmode none
+vector 4 PolicyB.queue6 "time spent on the queue" ETV
+attr interpolationmode none
+vector 5 PolicyB.queue6 "queue size after modification" ETV
+attr interpolationmode none
+vector 6 PolicyB.queue5 "processing time with client order" ETV
+attr interpolationmode none
+vector 7 PolicyB.queue9 "time spent on the queue" ETV
+attr interpolationmode none
+vector 8 PolicyB.queue9 "queue size after modification" ETV
+attr interpolationmode none
+vector 9 PolicyB.queue4 "time spent on the queue" ETV
+attr interpolationmode none
+vector 10 PolicyB.queue4 "queue size after modification" ETV
+attr interpolationmode none
+vector 11 PolicyB.queue2 "time spent on the queue" ETV
+attr interpolationmode none
+vector 12 PolicyB.queue2 "queue size after modification" ETV
+attr interpolationmode none
+vector 13 PolicyB.queue8 "time spent on the queue" ETV
+attr interpolationmode none
+vector 14 PolicyB.queue8 "queue size after modification" ETV
+attr interpolationmode none
+vector 15 PolicyB.queue7 "time spent on the queue" ETV
+attr interpolationmode none
+vector 16 PolicyB.queue7 "queue size after modification" ETV
+attr interpolationmode none
+vector 17 PolicyB.queue1 "time spent on the queue" ETV
+attr interpolationmode none
+vector 18 PolicyB.queue1 "queue size after modification" ETV
+attr interpolationmode none
+vector 19 PolicyB.queue0 "time spent on the queue" ETV
+attr interpolationmode none
+vector 20 PolicyB.queue0 "queue size after modification" ETV
+attr interpolationmode none
+vector 21 PolicyB.queue6 "processing time with client order" ETV
+attr interpolationmode none
+vector 22 PolicyB.queue9 "processing time with client order" ETV
+attr interpolationmode none
+vector 23 PolicyB.queue8 "processing time with client order" ETV
+attr interpolationmode none
+vector 24 PolicyB.queue7 "processing time with client order" ETV
+attr interpolationmode none
+vector 25 PolicyB.queue3 "processing time with client order" ETV
+attr interpolationmode none
+vector 26 PolicyB.queue0 "processing time with client order" ETV
+attr interpolationmode none
+vector 27 PolicyB.queue2 "processing time with client order" ETV
+attr interpolationmode none
+vector 28 PolicyB.queue4 "processing time with client order" ETV
+attr interpolationmode none
+vector 29 PolicyB.queue1 "processing time with client order" ETV
+attr interpolationmode none
+0	3083 2899 2 12654 0 42863.829 141 0 647.389 6418.516 2530943.644068
+1	5982 3223 2 12654 0 42863.829 164 0 1 23 23
+2	9205 2849 6 12690 46.17 43002.146 137 0 1046.765 6082.033 2996286.303821
+3	12054 3207 6 12690 46.17 43002.146 162 0 1 25 25
+4	15261 2842 9 12705 50.314 43042.943 135 0 1094.787 8717.088 3937830.777822
+5	18103 3308 9 12705 50.314 43042.943 168 0 1 33 33
+6	21411 3539 12 12639 52.867 42824.371 140 31.438 1014.388 34655.234 14367047.253144
+7	24950 6138 17 12693 83.919 43002.895 299 0 146.825 2365.428 202506.64075
+8	31088 6826 17 12693 83.919 43002.895 344 0 1 45 45
+9	37914 2911 21 12737 114.309 43166.455 140 0 1062.955 7000.959 3497978.523295
+10	40825 3449 21 12737 114.309 43166.455 166 0 1 26 26
+11	44274 2575 24 12719 128.42 43095.086 116 0 1242.351 10495.548 7854712.877682
+12	46849 3090 24 12719 128.42 43095.086 149 0 1 33 33
+13	49939 6383 27 12729 135.154 43122.372 300 0 125.047 1759.554 133340.267096
+14	56322 6889 27 12729 135.154 43122.372 332 0 1 32 32
+15	63211 6492 30 12697 138.135 43018.418 304 0 143.701 1969.692 152505.480188
+16	69703 7065 30 12697 138.135 43018.418 340 0 1 36 36
+17	76768 2813 33 12708 141.913 43043.754 128 0 1231.864 8229.17 4729073.213554
+18	79581 3243 33 12708 141.913 43043.754 156 0 1 28 28
+19	82824 2693 36 12651 143.085 42848.302 123 0 831.909 6917.819 3334236.088955
+20	85517 3075 36 12651 143.085 42848.302 148 0 1 25 25
+21	88592 3563 40 12741 151.226 43168.203 135 36.351 1248.923 34103.463 14328595.739451
+22	92155 7801 48 12723 173.916 43104.443 299 30.124 179.335 26451.627 2743925.289681
+23	99956 7781 51 12726 181.815 43113.674 299 30.085 178.396 27375.74 2947832.594886
+24	107737 7905 62 12716 226.879 43089.407 304 30.929 203.795 27191.534 2871614.470778
+25	115642 3593 92 12679 347.808 42972.17 136 31.379 1345.788 34683.602 17768025.808334
+26	119235 3257 103 12734 370.075 43165.006 123 31.474 1840.39 36083.603 20613485.493171
+27	122492 3041 145 12719 482.328 43095.086 115 30.486 1616.078 37467.624 26605764.957792
+28	125533 3667 148 12737 486.915 43166.455 139 30.909 1228.734 36005.727 15694286.395119
+29	129200 3356 286 12701 1124.738 43032.519 127 32.187 1285.386 36569.23 19946749.51103
+

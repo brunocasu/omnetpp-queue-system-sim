@@ -1,43 +1,109 @@
-file 199183 1655733359                                          
+file 122031 1656040950                                          
 version 2
-run General-0-20220620-15:55:57-3944
+run General-0-20220624-05:22:27-24584
 attr configname General
-attr datetime 20220620-15:55:57
+attr datetime 20220624-05:22:27
 attr experiment General
 attr inifile omnetpp.ini
 attr iterationvars $0=456
 attr iterationvarsf 456-
 attr measurement $0=456
-attr network PolicyA
-attr processid 3944
+attr network PolicyB
+attr processid 24584
 attr repetition 0
 attr replication #0
 attr resultdir results
 attr runnumber 0
 attr seedset 456
 
-vector 0 PolicyA.queue "time spent on the queue" ETV
+vector 0 PolicyB.queue5 "time spent on the queue" ETV
 attr interpolationmode none
-vector 1 PolicyA.queue "queue size after modification" ETV
+vector 1 PolicyB.queue5 "queue size after modification" ETV
 attr interpolationmode none
-vector 2 PolicyA.queue "client processing order" ETV
+vector 2 PolicyB.queue4 "time spent on the queue" ETV
 attr interpolationmode none
-vector 3 PolicyA.queue "processing time with client order" ETV
+vector 3 PolicyB.queue4 "queue size after modification" ETV
 attr interpolationmode none
-vector 4 PolicyA.queue "till processing order" ETV
+vector 4 PolicyB.queue6 "time spent on the queue" ETV
 attr interpolationmode none
-vector 5 PolicyA.queue "client total time in the till" ETV
+vector 5 PolicyB.queue6 "queue size after modification" ETV
 attr interpolationmode none
-vector 6 PolicyA.queue "queue size per minute" ETV
+vector 6 PolicyB.queue8 "time spent on the queue" ETV
 attr interpolationmode none
-vector 7 PolicyA.source "number of clients entering the queue per timer interval" ETV
+vector 7 PolicyB.queue8 "queue size after modification" ETV
 attr interpolationmode none
-0	1096 28806 2 8604 0 43144.448 1304 0 302.579 53451.192 7177851.726796
-1	29902 38362 2 8604 0 43144.448 1962 0 13 3848 20022
-2	68264 28168 10 8600 53.361 43078.576 1300 0 1301 844352 731493750
-3	96432 32442 10 8600 53.361 43078.576 1300 30.062 986.702 194064.521 48709377.330325
-4	128874 25378 10 8600 53.361 43078.576 1300 0 5 2911 10285
-5	154252 32484 10 8600 53.361 43078.576 1300 32.481 992.702 202486.521 51337657.458325
-6	186736 11248 11 8608 60 43200 720 0 12 893 4459
-7	197984 1197 120 8607 600 43200 72 5 28 1304 25042
+vector 8 PolicyB.queue3 "time spent on the queue" ETV
+attr interpolationmode none
+vector 9 PolicyB.queue3 "queue size after modification" ETV
+attr interpolationmode none
+vector 10 PolicyB.queue2 "time spent on the queue" ETV
+attr interpolationmode none
+vector 11 PolicyB.queue2 "queue size after modification" ETV
+attr interpolationmode none
+vector 12 PolicyB.queue4 "processing time with client order" ETV
+attr interpolationmode none
+vector 13 PolicyB.queue5 "processing time with client order" ETV
+attr interpolationmode none
+vector 14 PolicyB.queue6 "processing time with client order" ETV
+attr interpolationmode none
+vector 15 PolicyB.queue9 "time spent on the queue" ETV
+attr interpolationmode none
+vector 16 PolicyB.queue9 "queue size after modification" ETV
+attr interpolationmode none
+vector 17 PolicyB.queue8 "processing time with client order" ETV
+attr interpolationmode none
+vector 18 PolicyB.queue0 "time spent on the queue" ETV
+attr interpolationmode none
+vector 19 PolicyB.queue0 "queue size after modification" ETV
+attr interpolationmode none
+vector 20 PolicyB.queue9 "processing time with client order" ETV
+attr interpolationmode none
+vector 21 PolicyB.queue1 "time spent on the queue" ETV
+attr interpolationmode none
+vector 22 PolicyB.queue1 "queue size after modification" ETV
+attr interpolationmode none
+vector 23 PolicyB.queue7 "time spent on the queue" ETV
+attr interpolationmode none
+vector 24 PolicyB.queue7 "queue size after modification" ETV
+attr interpolationmode none
+vector 25 PolicyB.queue7 "processing time with client order" ETV
+attr interpolationmode none
+vector 26 PolicyB.queue0 "processing time with client order" ETV
+attr interpolationmode none
+vector 27 PolicyB.queue2 "processing time with client order" ETV
+attr interpolationmode none
+vector 28 PolicyB.queue3 "processing time with client order" ETV
+attr interpolationmode none
+vector 29 PolicyB.queue1 "processing time with client order" ETV
+attr interpolationmode none
+0	3083 2571 2 11877 0 42803.596 125 0 1119.963 5388.357 2854075.524513
+1	5654 2903 2 11877 0 42803.596 148 0 1 23 23
+2	8557 2533 5 11979 4.272 43113.488 124 0 585.315 4520.717 1524372.173983
+3	11090 2806 5 11979 4.272 43113.488 143 0 1 19 19
+4	13896 2542 8 11989 13.249 43195.112 124 0 663.349 3732.338 1464212.9391
+5	16438 2833 8 11989 13.249 43195.112 144 0 1 20 20
+6	19271 5687 11 11984 16.354 43140.908 284 0 208.222 1112.455 121935.286125
+7	24958 5924 11 11984 16.354 43140.908 300 0 1 16 16
+8	30882 2549 18 11959 57.199 43082.437 124 0 964.384 4784.887 2782438.584591
+9	33431 2854 18 11959 57.199 43082.437 145 0 1 21 21
+10	36285 2881 21 11971 66.861 43107.272 134 0 787.697 3906.993 1594739.253835
+11	39166 3134 21 11971 66.861 43107.272 151 0 1 17 17
+12	42300 3234 24 11968 77.432 43105.411 123 30.156 1350.895 35378.153 16807412.132333
+13	45534 3278 27 11952 77.952 43035.817 125 34.589 1518.743 34085.349 17432171.577623
+14	48812 3248 30 11892 82.301 42834.28 123 30.295 1433.373 33645.857 16438365.785013
+15	52060 5859 40 11930 90.513 42973.389 277 0 71.719 768.766 36255.530768
+16	57919 6219 40 11930 90.513 42973.389 299 0 1 22 22
+17	64138 7332 47 11956 113.389 43049.993 283 30.538 259.457 24149.629 2414947.828963
+18	71470 2683 53 11936 129.187 42981.878 127 0 705.57 1829.296 685444.903902
+19	74153 2885 53 11936 129.187 42981.878 140 0 1 13 13
+20	77038 7192 58 11949 161.579 43030.162 277 31.161 188.342 24081.471 2484960.591957
+21	84230 2509 67 11896 189.952 42848.916 117 0 833.593 3601.155 1750526.975101
+22	86739 2723 67 11896 189.952 42848.916 131 0 1 14 14
+23	89462 5908 81 11965 225.132 43092.827 280 0 105.105 971.433 68028.203167
+24	95370 6231 81 11965 225.132 43092.827 300 0 1 20 20
+25	101601 7279 100 11992 283.966 43197.294 280 30.166 176.797 23814.708 2420713.777538
+26	108880 3314 103 11936 284.616 42981.878 126 31.167 1147.136 31281.365 13362277.387177
+27	112194 3516 106 11971 299.413 43107.272 133 30.37 1208.848 34831.069 16004623.412267
+28	115710 3232 125 11940 386.594 42990.378 123 30.813 1868.269 33358.12 18266014.843464
+29	118942 3087 146 11976 470.515 43113.052 117 30.649 1856.13 33633.965 19600733.024963
 
