@@ -13,7 +13,7 @@ namespace the_carrefour {
 
 #define N_TILLS     10
 #define QUEUE_CONTROL_SIZE  20000 // maximum size for time entering control
-#define DISCOURAGED_MODE    1 // 1 makes the system use the discouraged arrivals mode
+#define DISCOURAGED_MODE    0 // 1 makes the system use the discouraged arrivals mode
 
 
 class QueueA : public cSimpleModule

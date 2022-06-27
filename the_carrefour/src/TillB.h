@@ -6,7 +6,7 @@
 
 using namespace omnetpp;
 
-#define FAST_QUEUE_MODE     0
+#define FAST_QUEUE_MODE     0 // 1 enables the Fast queue mode
 
 namespace the_carrefour {
 

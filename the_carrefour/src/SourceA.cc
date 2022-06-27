@@ -51,7 +51,7 @@ void SourceA::handleMessage(cMessage *msg)
     else if (rec_name.compare("discourage")==0){
         Till2queue *tempMsg;
         tempMsg = (Till2queue*)msg;
-        int rec_queue_size = tempMsg->getTill_n(); // improvised method to transmit the queue size information for the source module
+        int rec_queue_size = tempMsg->getTill_n(); // method to transmit the queue size information for the source module
         EV << "DISCOURAGED MESSAGE RECEIVED - CURRENT QUEUE SIZE = "<< rec_queue_size << endl;
         if (rec_queue_size < 5) {discourage_multiplyer = 1;}
         else if (rec_queue_size >= 5 && rec_queue_size < 10) {discourage_multiplyer = 1.1;}
@@ -59,8 +59,6 @@ void SourceA::handleMessage(cMessage *msg)
         else if (rec_queue_size >= 15 && rec_queue_size < 20) {discourage_multiplyer = 1.3;}
         else if (rec_queue_size >= 20 && rec_queue_size < 25) {discourage_multiplyer = 1.4;}
         else if (rec_queue_size >= 25 && rec_queue_size < 30) {discourage_multiplyer = 1.5;}
-
-
     }
 }
 

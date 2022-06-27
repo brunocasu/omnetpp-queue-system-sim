@@ -18,7 +18,7 @@ class SourceA : public cSimpleModule
     int prev_count = 0;
     int partial_n = 0;
     int intital_set = 0;
-    double discourage_multiplyer = 1;
+    double discourage_multiplyer = 1; // multiplier to reduce client IA in discouraged mode
 
   public:
      SourceA();
