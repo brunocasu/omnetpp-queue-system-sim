@@ -22,6 +22,26 @@
    inkscape:export-ydpi="300">
   <defs
      id="defs2">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect6269"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect6265"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
     <marker
        inkscape:isstock="true"
        style="overflow:visible"
@@ -4746,6 +4766,426 @@
          d="M 5.77,0 -2.88,5 V -5 Z"
          id="path48145-6-2" />
     </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-9-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-60-8" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-2-8-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-68-2-1" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-2-6-1-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#5b5b5b;fill-opacity:1;fill-rule:evenodd;stroke:#5b5b5b;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-68-9-1-3" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-2-3-1-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-68-6-8-1" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-2-3-8-9-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#5b5b5b;fill-opacity:1;fill-rule:evenodd;stroke:#5b5b5b;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-68-6-2-3-5" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-2-3-2-5-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-68-6-4-8-2" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-5-9-6-2-2-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#7ebf5c;fill-opacity:1;fill-rule:evenodd;stroke:#7ebf5c;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-6-9-8-3-8-7" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-2-6-1-6-05"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#7ebf5c;fill-opacity:1;fill-rule:evenodd;stroke:#7ebf5c;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-68-9-1-8-8" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-9-7-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#8d8d8d;fill-opacity:1;fill-rule:evenodd;stroke:#8d8d8d;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-60-6-4" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-2-6-1-6-0-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#8000ff;fill-opacity:1;fill-rule:evenodd;stroke:#8000ff;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-68-9-1-8-6-5" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-5-9-6-2-2-6-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#8000ff;fill-opacity:1;fill-rule:evenodd;stroke:#8000ff;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-6-9-8-3-8-5-5" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-9-7-6-65"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#8d8d8d;fill-opacity:1;fill-rule:evenodd;stroke:#8d8d8d;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-60-6-0-9" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-2-6-1-6-0-1-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#d5468c;fill-opacity:1;fill-rule:evenodd;stroke:#d5468c;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-68-9-1-8-6-7-70" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-2-6-1-6-0-1-8-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#f13834;fill-opacity:1;fill-rule:evenodd;stroke:#f13834;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-68-9-1-8-6-7-0-6" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-2-6-1-6-0-1-3-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#ff9100;fill-opacity:1;fill-rule:evenodd;stroke:#ff9100;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-68-9-1-8-6-7-06-5" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-2-3-1-1-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#5b5b5b;fill-opacity:1;fill-rule:evenodd;stroke:#5b5b5b;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-68-6-8-8-1" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-5-9-6-2-2-8-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#ff9100;fill-opacity:1;fill-rule:evenodd;stroke:#ff9100;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-6-9-8-3-8-6-7" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-9-7-4-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#8d8d8d;fill-opacity:1;fill-rule:evenodd;stroke:#8d8d8d;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-60-6-7-42" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-2-6-1-6-0-1-5-5-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#5ca4bf;fill-opacity:1;fill-rule:evenodd;stroke:#5ca4bf;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-68-9-1-8-6-7-7-2-50" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-5-9-6-2-2-8-7-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#f13834;fill-opacity:1;fill-rule:evenodd;stroke:#f13834;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-6-9-8-3-8-6-8-4" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-2-6-1-6-0-1-5-5-9-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#e4ce44;fill-opacity:1;fill-rule:evenodd;stroke:#e4ce44;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-68-9-1-8-6-7-7-2-7-2" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-9-7-4-3-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#8d8d8d;fill-opacity:1;fill-rule:evenodd;stroke:#8d8d8d;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-60-6-7-4-1" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-5-9-6-2-2-6-9-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#d5468c;fill-opacity:1;fill-rule:evenodd;stroke:#d5468c;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-6-9-8-3-8-5-9-4" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-9-7-6-6-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#8d8d8d;fill-opacity:1;fill-rule:evenodd;stroke:#8d8d8d;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-60-6-0-6-9" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-2-6-1-3-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#5b5b5b;fill-opacity:1;fill-rule:evenodd;stroke:#5b5b5b;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-68-9-1-2-8" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-2-6-1-6-0-1-1-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#56db9a;fill-opacity:1;fill-rule:evenodd;stroke:#56db9a;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-68-9-1-8-6-7-2-6" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-9-7-4-38-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#8d8d8d;fill-opacity:1;fill-rule:evenodd;stroke:#8d8d8d;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-60-6-7-6-7" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker48147-2-6-1-6-0-1-5-5-8-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4)"
+         style="fill:#5ca4bf;fill-opacity:1;fill-rule:evenodd;stroke:#5ca4bf;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path48145-68-9-1-8-6-7-7-2-5-5" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -4754,9 +5194,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="-1992.9572"
-     inkscape:cy="877.57281"
+     inkscape:zoom="0.7071068"
+     inkscape:cx="620.51032"
+     inkscape:cy="1425.1647"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -5177,8 +5617,8 @@
        height="21.588934"
        width="24.328644"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-system.png"
-       inkscape:export-xdpi="600"
-       inkscape:export-ydpi="600" />
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <image
        y="-40.15839"
        x="-418.55774"
@@ -5189,8 +5629,8 @@
        height="21.588934"
        width="24.328644"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-system.png"
-       inkscape:export-xdpi="600"
-       inkscape:export-ydpi="600" />
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <image
        y="-16.628025"
        x="-418.55774"
@@ -5201,8 +5641,8 @@
        height="21.588934"
        width="24.328644"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-system.png"
-       inkscape:export-xdpi="600"
-       inkscape:export-ydpi="600" />
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <image
        y="18.968103"
        x="-418.55774"
@@ -5213,8 +5653,8 @@
        height="21.588934"
        width="24.328644"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-system.png"
-       inkscape:export-xdpi="600"
-       inkscape:export-ydpi="600" />
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <image
        y="-1.6497849"
        x="-413.5527"
@@ -5225,8 +5665,8 @@
        height="11.865678"
        width="14.392629"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-system.png"
-       inkscape:export-xdpi="600"
-       inkscape:export-ydpi="600" />
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <image
        y="-45.043491"
        x="-454.74268"
@@ -5237,8 +5677,8 @@
        height="11.865678"
        width="14.392629"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-system.png"
-       inkscape:export-xdpi="600"
-       inkscape:export-ydpi="600" />
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <image
        y="-30.635227"
        x="-454.74268"
@@ -5249,8 +5689,8 @@
        height="11.865678"
        width="14.392629"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-system.png"
-       inkscape:export-xdpi="600"
-       inkscape:export-ydpi="600" />
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <image
        y="-17.075077"
        x="-454.74268"
@@ -5261,8 +5701,8 @@
        height="11.865678"
        width="14.392629"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-system.png"
-       inkscape:export-xdpi="600"
-       inkscape:export-ydpi="600" />
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <image
        y="22.250484"
        x="-454.74268"
@@ -5273,13 +5713,15 @@
        height="11.865678"
        width="14.392629"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-system.png"
-       inkscape:export-xdpi="600"
-       inkscape:export-ydpi="600" />
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.48048779;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m -439.48702,-45.890715 v 73.73486"
        id="path7788"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <image
        y="-57.756382"
        x="-447.77744"
@@ -5290,8 +5732,8 @@
        height="11.865678"
        width="14.392629"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-system.png"
-       inkscape:export-xdpi="600"
-       inkscape:export-ydpi="600" />
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.81595999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-5-6)"
        d="m -447.11475,23.344585 v -7.19631"
@@ -5299,8 +5741,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-system.png"
-       inkscape:export-xdpi="600"
-       inkscape:export-ydpi="600" />
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.38439023;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-5-8-2-3)"
        d="m -432.3678,-50.975875 12.71291,2.54258"
@@ -5308,8 +5750,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-system.png"
-       inkscape:export-xdpi="600"
-       inkscape:export-ydpi="600" />
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.38439023;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-5-8-2-3-9)"
        d="m -432.3678,-48.433295 12.71291,17.79807"
@@ -5317,8 +5759,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-system.png"
-       inkscape:export-xdpi="600"
-       inkscape:export-ydpi="600" />
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.38439023;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-5-8-2-3-9-8)"
        d="m -432.3678,-45.890715 13.9842,39.41001"
@@ -5326,8 +5768,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-system.png"
-       inkscape:export-xdpi="600"
-       inkscape:export-ydpi="600" />
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.38439023;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-5-8-2-3-9-8-2)"
        d="m -432.3678,-43.348135 13.9842,72.46357"
@@ -5335,8 +5777,8 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-system.png"
-       inkscape:export-xdpi="600"
-       inkscape:export-ydpi="600" />
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.39010835px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34671566"
@@ -5440,19 +5882,25 @@
        id="path16342-3"
        cx="-406.23163"
        cy="13.335536"
-       r="0.42821509" />
+       r="0.42821509"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <circle
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.25895214;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path16342-5-0"
        cx="-406.23163"
        cy="15.115352"
-       r="0.42821509" />
+       r="0.42821509"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <circle
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.25895214;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path16342-50-7-9"
        cx="-406.23163"
        cy="16.895136"
-       r="0.42821509" />
+       r="0.42821509"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.32975668px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m -371.3826,-48.227645 h 25.25568 v 12.05553 h -25.25568"
@@ -12058,7 +12506,7 @@
     </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M -615.15625,49.61458 V 160.73957"
+       d="m -615.15625,49.61458 0,62.17709"
        id="path47984-9"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -12067,7 +12515,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M -578.11458,49.61458 V 160.73957"
+       d="m -578.11458,49.61458 0,62.17709"
        id="path47986-4"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -12076,7 +12524,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M -527.84375,49.61458 V 160.73957"
+       d="m -527.84375,49.61458 0,62.17709"
        id="path47988-0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -12085,7 +12533,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M -519.90625,49.61458 V 160.73957"
+       d="m -519.90625,49.61458 0,62.17709"
        id="path47990-9"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -12094,7 +12542,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M -511.96875,49.61458 V 160.73957"
+       d="m -511.96875,49.61458 0,62.17709"
        id="path47992-4"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -12233,7 +12681,7 @@
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
        x="-511.32721"
-       y="106.1482"
+       y="97.681541"
        id="text4549-6-7-1-0-2-0-1-1-6-8-1-2-5"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\msg-scenario-a.png"
        inkscape:export-xdpi="300"
@@ -12241,7 +12689,7 @@
          sodipodi:role="line"
          id="tspan4547-0-0-0-4-9-1-3-4-7-24-0-0-9"
          x="-511.32721"
-         y="106.1482"
+         y="97.681541"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">e=1</tspan></text>
     <text
        xml:space="preserve"
@@ -12356,7 +12804,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#5ca4bf;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker48147-5-9-5-9)"
-       d="M -578.11459,98.562502 -513.29167,106.5"
+       d="m -578.11459,90.09583 64.82292,7.937462"
        id="path48137-3-6-5-5"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -12420,7 +12868,7 @@
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
        x="-577.33319"
-       y="101.34949"
+       y="92.882812"
        id="text4549-6-7-1-0-2-0-1-1-6-7-5-7-43"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\msg-scenario-a.png"
        inkscape:export-xdpi="300"
@@ -12428,7 +12876,7 @@
          sodipodi:role="line"
          id="tspan4547-0-0-0-4-9-1-3-4-7-0-5-7-8"
          x="-577.33319"
-         y="101.34949"
+         y="92.882812"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">N<tspan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.81151819px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153"
    id="tspan50958-1-4-4-2">q</tspan>=0</tspan></text>
@@ -12581,7 +13029,7 @@
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">1/λ</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker48147-2-6-7)"
-       d="m -615.15625,91.947919 35.71876,-3e-6"
+       d="m -615.15625,83.481247 35.71876,-3e-6"
        id="path48137-7-3-7"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -12592,7 +13040,7 @@
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
        x="-601.9682"
-       y="94.490891"
+       y="86.024216"
        id="text4549-6-7-1-0-2-0-1-1-6-8-0-3-7-9"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\msg-scenario-a.png"
        inkscape:export-xdpi="300"
@@ -12600,11 +13048,11 @@
          sodipodi:role="line"
          id="tspan4547-0-0-0-4-9-1-3-4-7-24-4-62-27-0"
          x="-601.9682"
-         y="94.490891"
+         y="86.024216"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">client</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker48147-2-3-7)"
-       d="m -615.15625,98.562502 35.71876,-2e-6"
+       d="m -615.15625,90.09583 35.71876,-2e-6"
        id="path48137-7-53-2"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -12615,7 +13063,7 @@
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
        x="-601.9682"
-       y="101.10548"
+       y="92.638802"
        id="text4549-6-7-1-0-2-0-1-1-6-8-0-3-0-60"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\msg-scenario-a.png"
        inkscape:export-xdpi="300"
@@ -12623,7 +13071,7 @@
          sodipodi:role="line"
          id="tspan4547-0-0-0-4-9-1-3-4-7-24-4-62-9-2"
          x="-601.9682"
-         y="101.10548"
+         y="92.638802"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">client</tspan></text>
     <text
        xml:space="preserve"
@@ -12641,7 +13089,7 @@
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#8000ff;fill-opacity:1;stroke-width:0.30878153">client</tspan></text>
     <path
        style="fill:none;stroke:#f13834;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker48147-5-9-6-26)"
-       d="m -578.11459,91.947919 56.88542,5.291664"
+       d="m -578.11459,83.481247 56.88542,5.291664"
        id="path48137-3-6-6-1"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -12650,7 +13098,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#7ebf5c;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker48147-2-1-5-2)"
-       d="m -527.84375,107.82291 -48.94792,0"
+       d="m -527.84375,99.356196 h -48.94792"
        id="path48137-7-5-7-7"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -12675,7 +13123,7 @@
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
        x="-527.28339"
-       y="108.44923"
+       y="99.982582"
        id="text4549-6-7-1-0-2-0-1-1-6-8-1-7-6-5-5"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\msg-scenario-a.png"
        inkscape:export-xdpi="300"
@@ -12683,13 +13131,13 @@
          sodipodi:role="line"
          id="tspan4547-0-0-0-4-9-1-3-4-7-24-0-6-1-8-8"
          x="-527.28339"
-         y="108.44923"
+         y="99.982582"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">e=0</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#7ebf5c;fill-opacity:1;stroke:none;stroke-width:0.30878153"
        x="-558.06866"
-       y="110.51128"
+       y="102.04461"
        id="text4549-6-7-1-0-2-0-1-1-6-8-0-3-3-8-0"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\msg-scenario-a.png"
        inkscape:export-xdpi="300"
@@ -12697,13 +13145,13 @@
          sodipodi:role="line"
          id="tspan4547-0-0-0-4-9-1-3-4-7-24-4-62-2-4-0"
          x="-558.06866"
-         y="110.51128"
+         y="102.04461"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#7ebf5c;fill-opacity:1;stroke-width:0.30878153">empty</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#f13834;fill-opacity:1;stroke:none;stroke-width:0.30878153"
        x="-558.93622"
-       y="97.263649"
+       y="88.796974"
        id="text4549-6-7-1-0-2-0-1-1-6-8-0-0-4-3-9"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\msg-scenario-a.png"
        inkscape:export-xdpi="300"
@@ -12711,13 +13159,13 @@
          sodipodi:role="line"
          id="tspan4547-0-0-0-4-9-1-3-4-7-24-4-6-0-0-1"
          x="-558.93622"
-         y="97.263649"
+         y="88.796974"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#f13834;fill-opacity:1;stroke-width:0.30878153">client</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#5ca4bf;fill-opacity:1;stroke:none;stroke-width:0.30878153"
        x="-558.93622"
-       y="104.47481"
+       y="96.008125"
        id="text4549-6-7-1-0-2-0-1-1-6-8-0-0-4-3-3-9"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\msg-scenario-a.png"
        inkscape:export-xdpi="300"
@@ -12725,13 +13173,13 @@
          sodipodi:role="line"
          id="tspan4547-0-0-0-4-9-1-3-4-7-24-4-6-0-0-5-4"
          x="-558.93622"
-         y="104.47481"
+         y="96.008125"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#5ca4bf;fill-opacity:1;stroke-width:0.30878153">client</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
        x="-519.51923"
-       y="97.827759"
+       y="89.361084"
        id="text4549-6-7-1-0-2-0-1-1-6-8-1-2-8-3-2-1"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\msg-scenario-a.png"
        inkscape:export-xdpi="300"
@@ -12739,13 +13187,13 @@
          sodipodi:role="line"
          id="tspan4547-0-0-0-4-9-1-3-4-7-24-0-0-0-8-3-9"
          x="-519.51923"
-         y="97.827759"
+         y="89.361084"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">e=1</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
        x="-577.40015"
-       y="94.613823"
+       y="86.147148"
        id="text4549-6-7-1-0-2-0-1-1-6-7-5-7-3-8"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\msg-scenario-a.png"
        inkscape:export-xdpi="300"
@@ -12753,27 +13201,10 @@
          sodipodi:role="line"
          id="tspan4547-0-0-0-4-9-1-3-4-7-0-5-7-31-7"
          x="-577.40015"
-         y="94.613823"
+         y="86.147148"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">N<tspan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.81151819px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153"
    id="tspan50958-1-4-4-5-7">q</tspan>=0</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05999996, 1.05999996;stroke-dashoffset:0;stroke-opacity:1"
-       d="m -514.61458,97.239586 15.87499,-3e-6"
-       id="path94871-6"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\msg-scenario-a.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       style="fill:none;stroke:#0000ff;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -500.59167,97.504161 1.05833,-0.79375"
-       id="path57255-6-5"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\msg-scenario-a.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
@@ -12820,7 +13251,7 @@
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
        x="-618.72546"
-       y="92.838951"
+       y="84.372276"
        id="text4549-6-7-1-0-2-0-1-1-6-8-1-2-8-9-2-3-28"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\msg-scenario-a.png"
        inkscape:export-xdpi="300"
@@ -12828,13 +13259,13 @@
          sodipodi:role="line"
          id="tspan4547-0-0-0-4-9-1-3-4-7-24-0-0-0-1-0-3-7"
          x="-618.72546"
-         y="92.838951"
+         y="84.372276"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">2</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
        x="-618.73285"
-       y="99.375664"
+       y="90.908989"
        id="text4549-6-7-1-0-2-0-1-1-6-8-1-2-8-9-2-1-0"
        inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\msg-scenario-a.png"
        inkscape:export-xdpi="300"
@@ -12842,7 +13273,581 @@
          sodipodi:role="line"
          id="tspan4547-0-0-0-4-9-1-3-4-7-24-0-0-0-1-0-4-7"
          x="-618.73285"
-         y="99.375664"
+         y="90.908989"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">3</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 470.95834,-410.76042 0,43.65625"
+       id="path47984-3-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36079547"
+       x="465.10654"
+       y="-413.74628"
+       id="text4549-6-7-1-0-2-0-1-1-1-6-4"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-2-9-9"
+         x="465.10654"
+         y="-413.74628"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.36079547">Source</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 508,-410.76042 0,43.65624"
+       id="path47986-1-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 521.22917,-410.76042 0,43.65625"
+       id="path47988-1-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36079547"
+       x="503.77307"
+       y="-415.35571"
+       id="text4549-6-7-1-0-2-0-1-1-19-5"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-9-3"
+         x="503.77307"
+         y="-415.35571"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.36079547">Queue/Till0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="504.70978"
+       y="-411.52063"
+       id="text4549-6-7-1-0-2-0-1-1-6-0-6"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-9-3"
+         x="504.70978"
+         y="-411.52063"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">N<tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.81151819px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153"
+   id="tspan50958-7-5">q</tspan>=0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="518.63605"
+       y="-411.35254"
+       id="text4549-6-7-1-0-2-0-1-1-6-8-1-5-7"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-24-0-8-18"
+         x="518.63605"
+         y="-411.35254"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">e=0</tspan></text>
+    <path
+       style="fill:none;stroke:#5b5b5b;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker48147-9-1)"
+       d="m 470.95834,-408.11458 101.86458,-1e-5"
+       id="path48137-1-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="484.67554"
+       y="-405.57159"
+       id="text4549-6-7-1-0-2-0-1-1-6-8-0-38-70"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-24-4-5-4"
+         x="484.67554"
+         y="-405.57159"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">client</tspan></text>
+    <path
+       style="fill:none;stroke:#5b5b5b;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker48147-2-8-6)"
+       d="m 470.95834,-397.53125 35.71875,-10e-6"
+       id="path48137-7-7-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="484.67554"
+       y="-394.98828"
+       id="text4549-6-7-1-0-2-0-1-1-6-8-0-3-4-9"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-24-4-62-8-6"
+         x="484.67554"
+         y="-394.98828"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">client</tspan></text>
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 473.60417,-408.11459 v 10.58333"
+       id="path57251-8-9-74"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 473.075,-397.26667 1.05833,-0.79375"
+       id="path57255-22-2-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#0000ff;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 473.075,-407.58543 1.05833,-0.79375"
+       id="path57255-8-7-4-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="474.41498"
+       y="-402.40186"
+       id="text4549-6-7-1-0-2-0-1-1-6-8-1-2-8-3-8-7-6-7-6"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-24-0-0-0-8-6-4-6-1-4"
+         x="474.41498"
+         y="-402.40186"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">1/λ</tspan></text>
+    <path
+       style="fill:none;stroke:#5b5b5b;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker48147-2-3-1-2)"
+       d="M 470.95834,-385.625 H 539.75"
+       id="path48137-7-53-1-57"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="484.67554"
+       y="-383.08203"
+       id="text4549-6-7-1-0-2-0-1-1-6-8-0-3-0-9-1"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-24-4-62-9-9-7"
+         x="484.67554"
+         y="-383.08203"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">client</tspan></text>
+    <path
+       style="fill:none;stroke:#7ebf5c;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker48147-5-9-6-2-2-3)"
+       d="M 587.375,-390.91667 H 575.46875"
+       id="path48137-3-6-6-5-5-99"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 541.07292,-410.76042 0,43.65624"
+       id="path47986-1-5-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 554.30209,-410.76042 0,43.65625"
+       id="path47988-1-8-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36079547"
+       x="536.84601"
+       y="-415.35571"
+       id="text4549-6-7-1-0-2-0-1-1-19-4-3"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-9-0-0"
+         x="536.84601"
+         y="-415.35571"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.36079547">Queue/Till1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="537.78271"
+       y="-411.52063"
+       id="text4549-6-7-1-0-2-0-1-1-6-0-8-9"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-9-8-5"
+         x="537.78271"
+         y="-411.52063"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">N<tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.81151819px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153"
+   id="tspan50958-7-0-6">q</tspan>=0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="551.70898"
+       y="-411.35257"
+       id="text4549-6-7-1-0-2-0-1-1-6-8-1-5-9-5"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-24-0-8-1-2"
+         x="551.70898"
+         y="-411.35257"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">e=0</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 574.14584,-410.76042 0,43.65625"
+       id="path47986-1-5-9-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 587.37501,-410.76042 0,43.65626"
+       id="path47988-1-8-8-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.36079547"
+       x="569.91888"
+       y="-415.35571"
+       id="text4549-6-7-1-0-2-0-1-1-19-4-7-9"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-9-0-7-8"
+         x="569.91888"
+         y="-415.35571"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.36079547">Queue/Till2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="570.85559"
+       y="-411.52063"
+       id="text4549-6-7-1-0-2-0-1-1-6-0-8-3-5"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-9-8-2-3"
+         x="570.85559"
+         y="-411.52063"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">N<tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.81151819px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153"
+   id="tspan50958-7-0-5-7">q</tspan>=0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="584.78186"
+       y="-411.35257"
+       id="text4549-6-7-1-0-2-0-1-1-6-8-1-5-9-6-2"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-24-0-8-1-0-0"
+         x="584.78186"
+         y="-411.35257"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">e=0</tspan></text>
+    <path
+       style="fill:none;stroke:#7ebf5c;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker48147-2-6-1-6-05)"
+       d="m 574.14584,-408.11458 h 11.90625"
+       id="path48137-7-3-6-8-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#7ebf5c;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="575.42767"
+       y="-408.71436"
+       id="text4549-6-7-1-0-2-0-1-1-6-8-0-0-9-8-5-3-8"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-24-4-6-2-4-0-1-8"
+         x="575.42767"
+         y="-408.71436"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#7ebf5c;fill-opacity:1;stroke-width:0.30878153">client</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="588.45001"
+       y="-407.57483"
+       id="text4549-6-7-1-0-2-0-1-1-6-8-1-2-8-3-2-5-3-9-8-8-8"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-24-0-0-0-8-3-2-1-9-4-1-7"
+         x="588.45001"
+         y="-407.57483"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">e=1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="575.25476"
+       y="-405.41452"
+       id="text4549-6-7-1-0-2-0-1-1-6-7-5-7-7-5-5-5-5-9-5"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-0-5-7-6-8-1-8-7-8-3"
+         x="575.25476"
+         y="-405.41452"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">N<tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.81151819px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153"
+   id="tspan50958-1-4-4-9-0-0-5-8-0-4">q</tspan>=0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="588.16937"
+       y="-390.22925"
+       id="text4549-6-7-1-0-2-0-1-1-6-8-1-2-8-3-2-5-3-9-8-8-0-0"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-24-0-0-0-8-3-2-1-9-4-1-5-5"
+         x="588.16937"
+         y="-390.22925"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">e=0</tspan></text>
+    <path
+       style="fill:none;stroke:#8d8d8d;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker48147-9-7-7)"
+       d="M 574.14584,-390.91667 H 472.28125"
+       id="path48137-1-6-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#8d8d8d;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="484.12054"
+       y="-391.55597"
+       id="text4549-6-7-1-0-2-0-1-1-6-8-0-38-7-2"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-24-4-5-0-27"
+         x="484.12054"
+         y="-391.55597"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#8d8d8d;fill-opacity:1;stroke-width:0.30878153">update</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#7ebf5c;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="577.14746"
+       y="-392.17789"
+       id="text4549-6-7-1-0-2-0-1-1-6-8-0-0-9-8-5-3-3-1"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-24-4-6-2-4-0-1-7-0"
+         x="577.14746"
+         y="-392.17789"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#7ebf5c;fill-opacity:1;stroke-width:0.30878153">empty</tspan></text>
+    <path
+       style="fill:none;stroke:#8000ff;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker48147-2-6-1-6-0-4)"
+       d="m 508,-397.53125 h 11.90625"
+       id="path48137-7-3-6-8-7-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#8000ff;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="509.2818"
+       y="-398.13104"
+       id="text4549-6-7-1-0-2-0-1-1-6-8-0-0-9-8-5-3-5-9"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-24-4-6-2-4-0-1-1-08"
+         x="509.2818"
+         y="-398.13104"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#8000ff;fill-opacity:1;stroke-width:0.30878153">client</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="508.71204"
+       y="-394.96347"
+       id="text4549-6-7-1-0-2-0-1-1-6-7-5-7-7-5-5-5-5-9-0-8"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-0-5-7-6-8-1-8-7-8-9-0"
+         x="508.71204"
+         y="-394.96347"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">N<tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.81151819px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153"
+   id="tspan50958-1-4-4-9-0-0-5-8-0-6-1">q</tspan>=0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="521.77496"
+       y="-396.99152"
+       id="text4549-6-7-1-0-2-0-1-1-6-8-1-2-8-3-2-5-3-9-8-8-7-0"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-24-0-0-0-8-3-2-1-9-4-1-51-8"
+         x="521.77496"
+         y="-396.99152"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">e=1</tspan></text>
+    <path
+       style="fill:none;stroke:#f13834;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker48147-2-6-1-6-0-1-8-6)"
+       d="m 541.07292,-385.625 h 11.90625"
+       id="path48137-7-3-6-8-7-3-0-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#f13834;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="542.35474"
+       y="-386.22479"
+       id="text4549-6-7-1-0-2-0-1-1-6-8-0-0-9-8-5-3-5-3-0-3"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-24-4-6-2-4-0-1-1-0-8-2"
+         x="542.35474"
+         y="-386.22479"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#f13834;fill-opacity:1;stroke-width:0.30878153">client</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="554.78088"
+       y="-384.81699"
+       id="text4549-6-7-1-0-2-0-1-1-6-8-1-2-8-3-2-5-3-9-8-8-7-2-1-0"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-24-0-0-0-8-3-2-1-9-4-1-51-0-6-8"
+         x="554.78088"
+         y="-384.81699"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">e=1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="541.76007"
+       y="-383.02985"
+       id="text4549-6-7-1-0-2-0-1-1-6-7-5-7-7-5-5-5-5-9-0-2-1-7"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-0-5-7-6-8-1-8-7-8-9-5-4-1"
+         x="541.76007"
+         y="-383.02985"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">N<tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.81151819px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153"
+   id="tspan50958-1-4-4-9-0-0-5-8-0-6-4-6-3">q</tspan>=0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="467.25681"
+       y="-384.49551"
+       id="text4549-6-7-1-0-2-0-1-1-6-8-1-2-8-9-2-3-2-6"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\msg-scenario-a.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-24-0-0-0-1-0-3-9-3"
+         x="467.25681"
+         y="-384.49551"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="467.3486"
+       y="-406.75793"
+       id="text4549-6-7-1-0-2-0-1-1-6-8-1-2-8-9-31-2"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\msg-scenario-a.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-24-0-0-0-1-8-3"
+         x="467.3486"
+         y="-406.75793"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="467.48276"
+       y="-396.30688"
+       id="text4549-6-7-1-0-2-0-1-1-6-8-1-2-8-9-2-68-1"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\msg-scenario-a.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-24-0-0-0-1-0-16-7"
+         x="467.48276"
+         y="-396.30688"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.30878153"
+       x="452.47418"
+       y="-410.47446"
+       id="text4549-6-7-1-0-2-0-1-1-6-8-1-2-8-9-3-3-5"
+       inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\msg-scenario-a.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4547-0-0-0-4-9-1-3-4-7-24-0-0-0-1-01-1-8"
+         x="452.47418"
+         y="-410.47446"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.01919723px;font-family:Consolas;-inkscape-font-specification:'Consolas, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.30878153">client num.</tspan></text>
   </g>
 </svg>
