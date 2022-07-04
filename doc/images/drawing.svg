@@ -5194,11 +5194,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7071068"
-     inkscape:cx="620.51032"
-     inkscape:cy="1425.1647"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="-2055.4561"
+     inkscape:cy="1216.8727"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g8073-3"
      showgrid="true"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
@@ -11943,7 +11943,9 @@
        transform="translate(-430.21252,-150.81251)">
       <g
          transform="rotate(-90,-100.92512,199.1704)"
-         id="g20788-9">
+         id="g20788-9"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">
         <circle
            style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26946795;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            id="path16342-7-65"
@@ -11968,7 +11970,9 @@
       </g>
       <g
          id="g10877"
-         transform="translate(18.520839)">
+         transform="translate(18.520839)"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">
         <circle
            style="fill:none;stroke:#000000;stroke-width:0.29281139;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            id="path2882-18-8-33"
@@ -12125,7 +12129,9 @@
          inkscape:connector-curvature="0"
          id="path20315-8-7-9-4"
          d="m -146.84375,159.41667 c 1.81958,-2.27447 3.52801,-4.41001 5.51227,-4.40987 1.98426,1.5e-4 4.18912,2.20501 6.39398,4.40987"
-         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16909-4-5-1-5)" />
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16909-4-5-1-5)"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
       <path
          sodipodi:nodetypes="ccc"
          transform="rotate(180,-126.33841,152.66177)"
@@ -12134,7 +12140,9 @@
          inkscape:connector-curvature="0"
          id="path20315-8-7-0-7-7-2-4-5-8"
          d="m -146.84375,159.41667 c 1.81958,-2.27447 3.52801,-4.41001 5.51227,-4.40987 1.98426,1.5e-4 4.18912,2.20501 6.39398,4.40987"
-         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16909-4-5-6-2-5-6-5-2-6)" />
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16909-4-5-6-2-5-6-5-2-6)"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
       <text
          inkscape:export-ydpi="300"
          inkscape:export-xdpi="300"
@@ -12149,34 +12157,6 @@
            x="-114.22021"
            id="tspan4547-0-0-0-4-2-3-6-7-9-0-4"
            sodipodi:role="line">Nμ</tspan></text>
-      <text
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
-         id="text4549-6-7-1-0-5-1-3-7-7-5-3-9-7"
-         y="140.76462"
-         x="-108.13357"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
-           y="140.76462"
-           x="-108.13357"
-           id="tspan4547-0-0-0-4-2-9-6-2-2-5-7-5-4"
-           sodipodi:role="line">N=10</tspan></text>
-      <text
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
-         id="text4549-6-7-1-0-5-2-2-8-2-4-3-1"
-         y="153.64496"
-         x="-145.04398"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
-           y="153.64496"
-           x="-145.04398"
-           id="tspan4547-0-0-0-4-2-3-6-7-9-0-8-2"
-           sodipodi:role="line">5μ</tspan></text>
       <circle
          inkscape:export-ydpi="300"
          inkscape:export-xdpi="300"
@@ -12188,7 +12168,9 @@
          style="fill:none;stroke:#000000;stroke-width:0.29281139;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <g
          transform="rotate(-90,-85.000249,183.34512)"
-         id="g20788-3-9">
+         id="g20788-3-9"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">
         <circle
            style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26946795;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            id="path16342-7-6-5"
@@ -12219,7 +12201,9 @@
          inkscape:connector-curvature="0"
          id="path20315-8-7-0-7-61-8"
          d="m -146.84375,159.41667 c 1.81958,-2.27447 3.52801,-4.41001 5.51227,-4.40987 1.98426,1.5e-4 4.18912,2.20501 6.39398,4.40987"
-         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16909-4-5-6-2-0-4)" />
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16909-4-5-6-2-0-4)"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
       <path
          sodipodi:nodetypes="ccc"
          transform="rotate(180,-142.21345,152.78579)"
@@ -12228,21 +12212,9 @@
          inkscape:connector-curvature="0"
          id="path20315-8-7-0-7-7-4-2"
          d="m -146.84375,159.41667 c 1.81958,-2.27447 3.52801,-4.41001 5.51227,-4.40987 1.98426,1.5e-4 4.18912,2.20501 6.39398,4.40987"
-         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16909-4-5-6-2-5-9-9)" />
-      <text
-         inkscape:export-ydpi="300"
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16909-4-5-6-2-5-9-9)"
          inkscape:export-xdpi="300"
-         inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
-         id="text4549-6-7-1-0-5-1-3-7-7-04-1"
-         y="140.99716"
-         x="-138.22615"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
-           y="140.99716"
-           x="-138.22615"
-           id="tspan4547-0-0-0-4-2-9-6-2-2-8-0"
-           sodipodi:role="line">5</tspan></text>
+         inkscape:export-ydpi="300" />
       <text
          inkscape:export-ydpi="300"
          inkscape:export-xdpi="300"
@@ -12265,7 +12237,9 @@
          inkscape:connector-curvature="0"
          id="path20315-8-7-0-7-61-9-3"
          d="m -146.84375,159.41667 c 1.81958,-2.27447 3.52801,-4.41001 5.51227,-4.40987 1.98426,1.5e-4 4.18912,2.20501 6.39398,4.40987"
-         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16909-4-5-6-2-0-0-9)" />
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16909-4-5-6-2-0-0-9)"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
       <text
          inkscape:export-ydpi="300"
          inkscape:export-xdpi="300"
@@ -12280,20 +12254,6 @@
            x="-146.35678"
            id="tspan4547-0-0-0-4-2-9-6-2-62-2-7-7-2"
            sodipodi:role="line">λ</tspan></text>
-      <text
-         inkscape:export-ydpi="300"
-         inkscape:export-xdpi="300"
-         inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
-         id="text4549-6-7-1-0-5-2-2-8-2-4-3-9-3-3"
-         y="153.52943"
-         x="-129.96292"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
-           y="153.52943"
-           x="-129.96292"
-           id="tspan4547-0-0-0-4-2-3-6-7-9-0-8-0-2-0"
-           sodipodi:role="line">6μ</tspan></text>
       <path
          sodipodi:nodetypes="ccc"
          transform="rotate(180,-134.8052,152.80209)"
@@ -12302,7 +12262,9 @@
          inkscape:connector-curvature="0"
          id="path20315-8-7-0-7-7-2-0-6-2"
          d="m -146.84375,159.41667 c 1.81958,-2.27447 3.52801,-4.41001 5.51227,-4.40987 1.98426,1.5e-4 4.18912,2.20501 6.39398,4.40987"
-         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16909-4-5-6-2-5-6-0-4-2)" />
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16909-4-5-6-2-5-6-0-4-2)"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
       <path
          sodipodi:nodetypes="ccc"
          transform="translate(43.391648,-25.945212)"
@@ -12311,7 +12273,9 @@
          inkscape:connector-curvature="0"
          id="path20315-8-7-9-3-4"
          d="m -146.84375,159.41667 c 1.81958,-2.27447 3.52801,-4.41001 5.51227,-4.40987 1.98426,1.5e-4 4.18912,2.20501 6.39398,4.40987"
-         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16909-4-5-1-8-3)" />
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16909-4-5-1-8-3)"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
       <path
          sodipodi:nodetypes="ccc"
          transform="rotate(180,-118.66554,152.66176)"
@@ -12320,7 +12284,9 @@
          inkscape:connector-curvature="0"
          id="path20315-8-7-0-7-7-2-4-5-4-6"
          d="m -146.84375,159.41667 c 1.81958,-2.27447 3.52801,-4.41001 5.51227,-4.40987 1.98426,1.5e-4 4.18912,2.20501 6.39398,4.40987"
-         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16909-4-5-6-2-5-6-5-2-2-5)" />
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16909-4-5-6-2-5-6-5-2-2-5)"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
       <text
          inkscape:export-ydpi="300"
          inkscape:export-xdpi="300"
@@ -12380,7 +12346,9 @@
          inkscape:connector-curvature="0"
          id="path20315-8-7-9-4-9"
          d="m -146.84375,159.41667 c 1.81958,-2.27447 3.52801,-4.41001 5.51227,-4.40987 1.98426,1.5e-4 4.18912,2.20501 6.39398,4.40987"
-         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16909-4-5-1-5-4)" />
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16909-4-5-1-5-4)"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
       <path
          sodipodi:nodetypes="ccc"
          transform="rotate(180,-110.1989,152.8021)"
@@ -12389,7 +12357,9 @@
          inkscape:connector-curvature="0"
          id="path20315-8-7-0-7-7-2-4-5-8-9"
          d="m -146.84375,159.41667 c 1.81958,-2.27447 3.52801,-4.41001 5.51227,-4.40987 1.98426,1.5e-4 4.18912,2.20501 6.39398,4.40987"
-         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16909-4-5-6-2-5-6-5-2-6-3)" />
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16909-4-5-6-2-5-6-5-2-6-3)"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
       <text
          inkscape:export-ydpi="300"
          inkscape:export-xdpi="300"
@@ -12409,18 +12379,20 @@
          inkscape:export-xdpi="300"
          inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
          id="text4549-6-7-1-0-5-1-3-7-7-5-3-9-7-0"
-         y="141.03496"
-         x="-74.212799"
+         y="140.75429"
+         x="-106.49182"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          xml:space="preserve"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
-           y="141.03496"
-           x="-74.212799"
+           y="140.75429"
+           x="-106.49182"
            id="tspan4547-0-0-0-4-2-9-6-2-2-5-7-5-4-8"
            sodipodi:role="line">15</tspan></text>
       <g
          transform="rotate(-90,-68.455819,167.08136)"
-         id="g20788-3-9-3">
+         id="g20788-3-9-3"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">
         <circle
            style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26946795;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            id="path16342-7-6-5-9"
@@ -12451,7 +12423,9 @@
          inkscape:connector-curvature="0"
          id="path20315-8-7-9-3-4-0"
          d="m -146.84375,159.41667 c 1.81958,-2.27447 3.52801,-4.41001 5.51227,-4.40987 1.98426,1.5e-4 4.18912,2.20501 6.39398,4.40987"
-         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16909-4-5-1-8-3-8)" />
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16909-4-5-1-8-3-8)"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
       <path
          sodipodi:nodetypes="ccc"
          transform="rotate(180,-102.52602,152.80209)"
@@ -12460,7 +12434,9 @@
          inkscape:connector-curvature="0"
          id="path20315-8-7-0-7-7-2-4-5-4-6-7"
          d="m -146.84375,159.41667 c 1.81958,-2.27447 3.52801,-4.41001 5.51227,-4.40987 1.98426,1.5e-4 4.18912,2.20501 6.39398,4.40987"
-         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16909-4-5-6-2-5-6-5-2-2-5-7)" />
+         style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16909-4-5-6-2-5-6-5-2-2-5-7)"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300" />
       <text
          inkscape:export-ydpi="300"
          inkscape:export-xdpi="300"
@@ -12503,6 +12479,89 @@
            x="-70.024834"
            id="tspan4547-0-0-0-4-2-9-6-2-62-2-7-6-9-2-1"
            sodipodi:role="line">λ/1.3</tspan></text>
+      <text
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+         id="text4549-6-7-1-0-5-1-3-7-7-5-3-9-7-1"
+         y="141.01266"
+         x="-141.14415"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="141.01266"
+           x="-141.14415"
+           id="tspan4547-0-0-0-4-2-9-6-2-2-5-7-5-4-7"
+           sodipodi:role="line">N=10</tspan></text>
+      <text
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+         id="text4549-6-7-1-0-5-2-2-8-2-4-2-2"
+         y="153.38107"
+         x="-145.83792"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="153.38107"
+           x="-145.83792"
+           id="tspan4547-0-0-0-4-2-3-6-7-9-0-4-2"
+           sodipodi:role="line">Nμ</tspan></text>
+      <text
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+         id="text4549-6-7-1-0-5-2-2-8-2-4-0-4-9"
+         y="153.38107"
+         x="-130.4921"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="153.38107"
+           x="-130.4921"
+           id="tspan4547-0-0-0-4-2-3-6-7-9-0-3-5-4"
+           sodipodi:role="line">Nμ</tspan></text>
+      <text
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="C:\Users\bruno\Desktop\the_carrefour_pecsn\doc\images\simple-network.png"
+         id="text4549-6-7-1-0-5-1-3-7-7-5-3-9-7-0-2"
+         y="141.04529"
+         x="-74.277397"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:Consolas;-inkscape-font-specification:'Consolas, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="141.04529"
+           x="-74.277397"
+           id="tspan4547-0-0-0-4-2-9-6-2-2-5-7-5-4-8-7"
+           sodipodi:role="line">20</tspan></text>
+      <g
+         transform="rotate(-90,-53.440718,152.06626)"
+         id="g20788-3-9-3-2"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300">
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26946795;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path16342-7-6-5-9-7"
+           cx="144.98033"
+           cy="41.541992"
+           r="0.44560453"
+           transform="rotate(90)" />
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26946795;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path16342-5-7-2-9-7-8"
+           cx="146.83241"
+           cy="41.541992"
+           r="0.44560453"
+           transform="rotate(90)" />
+        <circle
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26946795;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path16342-50-7-98-3-8-9-9"
+           cx="148.68449"
+           cy="41.541992"
+           r="0.44560453"
+           transform="rotate(90)" />
+      </g>
     </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
